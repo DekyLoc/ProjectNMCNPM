@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Container.cs" />
     <Compile Include="KhachHang.cs" />
     <Compile Include="DanhMucPhong.cs">
       <SubType>Form</SubType>

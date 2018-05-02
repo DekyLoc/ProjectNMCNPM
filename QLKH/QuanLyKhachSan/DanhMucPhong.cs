@@ -331,7 +331,7 @@ namespace QuanLyKhachSan
         private void btnThem_Click(object sender, EventArgs e)
         {
             RemovePhong();
-            AddPhong();
+            AddPhong();// thêm phòng khi click
         }
 
         private void btnLuu_Click(object sender, EventArgs e)

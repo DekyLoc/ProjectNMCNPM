@@ -69,7 +69,7 @@
             this.btnBaoCao.Text = "Báo cáo";
             this.btnBaoCao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBaoCao.UseVisualStyleBackColor = false;
-            this.btnBaoCao.Click += new System.EventHandler(this.btnBaoCao_Click);
+           // this.btnBaoCao.Click += new System.EventHandler(this.btnBaoCao_Click);
             // 
             // btnThoat
             // 
@@ -105,7 +105,7 @@
             this.btnHoaDon.Text = "Lập hoá đơn";
             this.btnHoaDon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHoaDon.UseVisualStyleBackColor = false;
-            this.btnHoaDon.Click += new System.EventHandler(this.btnHoaDon_Click);
+            //this.btnHoaDon.Click += new System.EventHandler(this.btnHoaDon_Click);
             // 
             // btnDanhSachPhong
             // 
@@ -124,7 +124,7 @@
             this.btnDanhSachPhong.Text = "Tra cứu ";
             this.btnDanhSachPhong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDanhSachPhong.UseVisualStyleBackColor = false;
-            this.btnDanhSachPhong.Click += new System.EventHandler(this.btnDanhSachPhong_Click);
+           // this.btnDanhSachPhong.Click += new System.EventHandler(this.btnDanhSachPhong_Click);
             // 
             // btnPhieuThue
             // 
@@ -143,7 +143,7 @@
             this.btnPhieuThue.Text = "Lập phiếu thuê phòng";
             this.btnPhieuThue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPhieuThue.UseVisualStyleBackColor = false;
-            this.btnPhieuThue.Click += new System.EventHandler(this.btnPhieuThue_Click);
+            //this.btnPhieuThue.Click += new System.EventHandler(this.btnPhieuThue_Click);
             // 
             // btnDanhMuc
             // 
@@ -181,7 +181,7 @@
             this.btnHelp.Text = "Trợ giúp";
             this.btnHelp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHelp.UseVisualStyleBackColor = false;
-            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+           // this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
             // Menu
             // 

@@ -178,3 +178,13 @@ D:\drive-download-20180426T170402Z-001\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.D
 D:\drive-download-20180426T170402Z-001\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Menu.resources
 D:\drive-download-20180426T170402Z-001\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
 D:\drive-download-20180426T170402Z-001\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+D:\drive-download-20180426T170402Z-001\ProjectNMCNPM\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+D:\drive-download-20180426T170402Z-001\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+D:\drive-download-20180426T170402Z-001\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+D:\drive-download-20180426T170402Z-001\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.DanhMucPhong.resources
+D:\drive-download-20180426T170402Z-001\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Menu.resources
+D:\drive-download-20180426T170402Z-001\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+D:\drive-download-20180426T170402Z-001\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+D:\drive-download-20180426T170402Z-001\ProjectNMCNPM\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+D:\drive-download-20180426T170402Z-001\ProjectNMCNPM\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+D:\drive-download-20180426T170402Z-001\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
