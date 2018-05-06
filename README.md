@@ -2,21 +2,21 @@
 
 # Tiếng việt 
 
-Đề tài: Phần mềm Quản lý khách sạn
+**Đề tài:** Phần mềm Quản lý khách sạn
 
-Nhóm: **Nice Grow**
+**Nhóm: Nice Grow**
 
-Thành viên:
->- Nguyễn Võ Thái Dương - 15520150
->- Nguyễn Huy Hảo - 15520202
->- Nguyễn Hồ Sơn Hoàng - 15520254
->- Trần Nguyên Khoa - 15520380
->- Nguyễn Trần Khánh Lộc - 15520432
+**Thành viên:**
+>- Nguyễn Võ Thái Dương - 15520150.
+>- Nguyễn Huy Hảo - 15520202.
+>- Nguyễn Hồ Sơn Hoàng - 15520254.
+>- Trần Nguyên Khoa - 15520380.
+>- Nguyễn Trần Khánh Lộc - 15520432.
 
 
-Mô tả: Phần mềm hỗ trợ việc quản lý các hoạt động của khách sạn thông qua việc tin học hóa các chức năng
+**Mô tả:** Phần mềm hỗ trợ việc quản lý các hoạt động của khách sạn thông qua việc tin học hóa các chức năng
 
-Chức năng:
+**Chức năng:**
 - **Kiểm tra thông tin phòng**
 - **Lập phiếu thuê phòng**
 - **Kiểm tra các dịch vụ**
@@ -24,7 +24,7 @@ Chức năng:
 - **Lập hóa đơn**
 - **Lập báo cáo tháng**
 
-Môi trường cài đặt:
+**Môi trường cài đặt:**
 * Hệ điều hành Window
 * Ngôn ngữ C#
 * SQL Server
@@ -32,20 +32,20 @@ Môi trường cài đặt:
     
 # English 
 
-Subject: Restaurant Management Application
+**Subject:** Restaurant Management Application
 
-Team: **Nice Grow**
+**Team: Nice Grow**
 
-Member:
-* Nguyen Vo Thai Duong - 15520150
-* Nguyen Huy Hao - 15520202
-* Nguyen Ho Son Hoang - 15520254
-* Tran Nguyen Khoa - 15520380
-* Nguyen Tran Khanh Loc - 15520432
+**Member:**
+>- Nguyen Vo Thai Duong - 15520150.
+>- Nguyen Huy Hao - 15520202.
+>- Nguyen Ho Son Hoang - 15520254.
+>- Tran Nguyen Khoa - 15520380.
+>- Nguyen Tran Khanh Loc - 15520432.
 
-Description: The software supports the management of hotel operations through computerization
+**Description:** The software supports the management of hotel operations through computerization
 
-Function:
+**Function:**
 - **Check room information**
 - **Make a room booking**
 - **Check out the services**
@@ -53,7 +53,7 @@ Function:
 - **Invoicing**
 - **Make monthly reports**
 
-Installation environment:
+**Installation environment:**
 * Window operating system
 * C# language
 * SQL Server
