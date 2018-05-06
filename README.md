@@ -4,7 +4,7 @@
 
 Đề tài: Phần mềm Quản lý khách sạn
 
-Nhóm: Nice Grow
+Nhóm: **Nice Grow**
 
 Thành viên:
 * Nguyễn Võ Thái Dương	15520150
@@ -34,7 +34,7 @@ Môi trường cài đặt:
 
 Subject: Restaurant Management Application
 
-Team: Nice Grow
+Team: **Nice Grow**
 
 Member:
 * Nguyen Vo Thai Duong	15520150
@@ -46,12 +46,12 @@ Member:
 Description: The software supports the management of hotel operations through computerization
 
 Function:
-**Check room information
-**Make a room booking
-**Check out the services
-**Save customer information
-**Invoicing
-**Make monthly reports
+- **Check room information**
+- **Make a room booking**
+- **Check out the services**
+- **Save customer information**
+- **Invoicing**
+- **Make monthly reports**
 
 Installation environment:
 * Window operating system
