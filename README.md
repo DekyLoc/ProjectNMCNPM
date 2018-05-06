@@ -5,6 +5,7 @@
 Đề tài: Phần mềm Quản lý khách sạn
 
 Nhóm: Nice Grow
+
 Thành viên:
 * Nguyễn Võ Thái Dương	15520150
 * Nguyễn Huy Hảo		15520202
@@ -34,6 +35,7 @@ Môi trường cài đặt:
 Subject: Restaurant Management Application
 
 Team: Nice Grow
+
 Member:
 * Nguyen Vo Thai Duong	15520150
 * Nguyen Huy Hao		15520202
