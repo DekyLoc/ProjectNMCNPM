@@ -43,12 +43,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Roboto Condensed", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial", 17.5F);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(88)))), ((int)(((byte)(111)))));
             this.label1.Location = new System.Drawing.Point(241, 52);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(528, 47);
+            this.label1.Size = new System.Drawing.Size(495, 35);
             this.label1.TabIndex = 15;
             this.label1.Text = "HỆ THỐNG QUẢN LÝ KHÁCH SẠN";
             // 
@@ -59,7 +59,7 @@
             this.btnBaoCao.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnBaoCao.FlatAppearance.BorderSize = 0;
             this.btnBaoCao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBaoCao.Font = new System.Drawing.Font("Roboto Condensed", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBaoCao.Font = new System.Drawing.Font("Arial", 17.5F);
             this.btnBaoCao.ForeColor = System.Drawing.Color.White;
             this.btnBaoCao.Location = new System.Drawing.Point(471, 503);
             this.btnBaoCao.Margin = new System.Windows.Forms.Padding(4);
@@ -69,7 +69,6 @@
             this.btnBaoCao.Text = "Báo cáo";
             this.btnBaoCao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBaoCao.UseVisualStyleBackColor = false;
-           // this.btnBaoCao.Click += new System.EventHandler(this.btnBaoCao_Click);
             // 
             // btnThoat
             // 
@@ -77,7 +76,7 @@
             this.btnThoat.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnThoat.FlatAppearance.BorderSize = 0;
             this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThoat.Font = new System.Drawing.Font("Roboto Condensed", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.Font = new System.Drawing.Font("Arial", 17.5F);
             this.btnThoat.ForeColor = System.Drawing.Color.White;
             this.btnThoat.Location = new System.Drawing.Point(847, 700);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(4);
@@ -95,7 +94,7 @@
             this.btnHoaDon.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnHoaDon.FlatAppearance.BorderSize = 0;
             this.btnHoaDon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHoaDon.Font = new System.Drawing.Font("Roboto Condensed", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHoaDon.Font = new System.Drawing.Font("Arial", 17.5F);
             this.btnHoaDon.ForeColor = System.Drawing.Color.White;
             this.btnHoaDon.Location = new System.Drawing.Point(471, 417);
             this.btnHoaDon.Margin = new System.Windows.Forms.Padding(4);
@@ -105,7 +104,6 @@
             this.btnHoaDon.Text = "Lập hoá đơn";
             this.btnHoaDon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHoaDon.UseVisualStyleBackColor = false;
-            //this.btnHoaDon.Click += new System.EventHandler(this.btnHoaDon_Click);
             // 
             // btnDanhSachPhong
             // 
@@ -114,7 +112,7 @@
             this.btnDanhSachPhong.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnDanhSachPhong.FlatAppearance.BorderSize = 0;
             this.btnDanhSachPhong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDanhSachPhong.Font = new System.Drawing.Font("Roboto Condensed", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDanhSachPhong.Font = new System.Drawing.Font("Arial", 17.5F);
             this.btnDanhSachPhong.ForeColor = System.Drawing.Color.White;
             this.btnDanhSachPhong.Location = new System.Drawing.Point(471, 245);
             this.btnDanhSachPhong.Margin = new System.Windows.Forms.Padding(4);
@@ -124,7 +122,7 @@
             this.btnDanhSachPhong.Text = "Tra cứu ";
             this.btnDanhSachPhong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDanhSachPhong.UseVisualStyleBackColor = false;
-           // this.btnDanhSachPhong.Click += new System.EventHandler(this.btnDanhSachPhong_Click);
+            this.btnDanhSachPhong.Click += new System.EventHandler(this.btnDanhSachPhong_Click);
             // 
             // btnPhieuThue
             // 
@@ -133,7 +131,7 @@
             this.btnPhieuThue.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnPhieuThue.FlatAppearance.BorderSize = 0;
             this.btnPhieuThue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPhieuThue.Font = new System.Drawing.Font("Roboto Condensed", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPhieuThue.Font = new System.Drawing.Font("Arial", 17.5F);
             this.btnPhieuThue.ForeColor = System.Drawing.Color.White;
             this.btnPhieuThue.Location = new System.Drawing.Point(471, 331);
             this.btnPhieuThue.Margin = new System.Windows.Forms.Padding(4);
@@ -143,7 +141,7 @@
             this.btnPhieuThue.Text = "Lập phiếu thuê phòng";
             this.btnPhieuThue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPhieuThue.UseVisualStyleBackColor = false;
-            //this.btnPhieuThue.Click += new System.EventHandler(this.btnPhieuThue_Click);
+            this.btnPhieuThue.Click += new System.EventHandler(this.btnPhieuThue_Click);
             // 
             // btnDanhMuc
             // 
@@ -152,7 +150,7 @@
             this.btnDanhMuc.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnDanhMuc.FlatAppearance.BorderSize = 0;
             this.btnDanhMuc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDanhMuc.Font = new System.Drawing.Font("Roboto Condensed", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDanhMuc.Font = new System.Drawing.Font("Arial", 17.5F);
             this.btnDanhMuc.ForeColor = System.Drawing.Color.White;
             this.btnDanhMuc.Location = new System.Drawing.Point(471, 159);
             this.btnDanhMuc.Margin = new System.Windows.Forms.Padding(4);
@@ -171,7 +169,7 @@
             this.btnHelp.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnHelp.FlatAppearance.BorderSize = 0;
             this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHelp.Font = new System.Drawing.Font("Roboto Condensed", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHelp.Font = new System.Drawing.Font("Arial", 17.5F);
             this.btnHelp.ForeColor = System.Drawing.Color.White;
             this.btnHelp.Location = new System.Drawing.Point(471, 589);
             this.btnHelp.Margin = new System.Windows.Forms.Padding(4);
@@ -181,7 +179,7 @@
             this.btnHelp.Text = "Trợ giúp";
             this.btnHelp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHelp.UseVisualStyleBackColor = false;
-           // this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
             // Menu
             // 

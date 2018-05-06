@@ -14,7 +14,7 @@ namespace QuanLyKhachSan
 
         // Lưu vị trí của newKhachHang
         public static int indexKhachHang = 0;
-
+        
         // Quay lại menu hoặc thoát chương trình ở phiếu thuê.
         public static bool isReturnMenu = false;
 
@@ -25,7 +25,7 @@ namespace QuanLyKhachSan
         public static string selectedPhong;
 
         // Lưu tên sever
-        public static string severName = System.Windows.Forms.SystemInformation.ComputerName + "\\SQLEXPRESS";
+        public static string severName = System.Windows.Forms.SystemInformation.ComputerName + "\\TOBI";
         #endregion
 
         #region Chuyển đổi định dạng tiền.
@@ -36,7 +36,7 @@ namespace QuanLyKhachSan
         }
         public static int FormatMoney(string money)
         {
-            int formattedMoney = Int32.Parse(money.Replace(".", ""));
+            int formattedMoney = Int32.Parse(money.Replace(",",""));
             return formattedMoney;
         }
         #endregion

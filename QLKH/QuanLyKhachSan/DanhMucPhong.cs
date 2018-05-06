@@ -95,11 +95,19 @@ namespace QuanLyKhachSan
                     CheckBox checkBox = ck as CheckBox;
                     if (checkBox != null)
                     {
-                        if (checkBox.Text == item.Text)
+                        if(checkBox.Text=="Trống" && item.Text=="Trống")
                         {
-                            checkBox.Checked = true;
-                            checkBox.Enabled = false;
+                            continue;
                         }
+                        else
+                        {
+                            if (checkBox.Text == item.Text)
+                            {
+                                checkBox.Checked = true;
+                                checkBox.Enabled = false;
+                            }
+                        }
+                       
                     }
                 }
             }
@@ -154,11 +162,11 @@ namespace QuanLyKhachSan
         void RemovePhong() 
         {
             if (rbtnA.Checked == true)
-                RemoveItem("A");
+                RemoveItem("Standard");
             else if (rbtnB.Checked == true)
-                RemoveItem("B");
+                RemoveItem("Superior");
             else if (rbtnC.Checked == true)
-                RemoveItem("C");
+                RemoveItem("Deluxe");
         }
 
         // Hàm được gọi bởi RemovePhong
@@ -178,18 +186,18 @@ namespace QuanLyKhachSan
         {
             if (rbtnA.Checked == true)
             {
-                CheckItem("B");
-                CheckItem("C");
+                CheckItem("Superior");
+                CheckItem("Deluxe");
             }
             else if (rbtnB.Checked == true)
             {
-                CheckItem("A");
-                CheckItem("C");
+                CheckItem("Standard");
+                CheckItem("Deluxe");
             }
             else if (rbtnC.Checked == true)
             {
-                CheckItem("A");
-                CheckItem("B");
+                CheckItem("Standard");
+                CheckItem("Superior");
             }
             else
                 return;
@@ -244,7 +252,15 @@ namespace QuanLyKhachSan
                 }
             }
         }
-
+        // Cập nhật tình trạng phòng
+        //int CheckState()
+        //{
+        //    if(ckbtt.Checked==true)
+        //    {
+        //        return 1;
+        //    }
+        //    return 0;
+        //}
         // Lưu dữ liệu khi nhấn button Luu.
         void SaveData() 
         {
@@ -267,9 +283,10 @@ namespace QuanLyKhachSan
                 {
                     string temp = item.SubItems[2].Text;
                     item.SubItems[2].Text = QuanLyKhachSan.Container.FormatMoney(item.SubItems[2].Text).ToString();
-                    SqlCommand sqlCommand = new SqlCommand("insert into PHONG values ('" + item.Text + "','" + item.SubItems[1].Text + "', '" + item.SubItems[2].Text + "',N'" + item.SubItems[3].Text + "' , '" + 0 + "'  )", sqlConnection);
-                    sqlCommand.ExecuteNonQuery();
-                    item.SubItems[2].Text = temp;
+                    //int tt = CheckState();
+                      SqlCommand sqlCommand = new SqlCommand("insert into PHONG values ('" + item.Text + "','" + item.SubItems[1].Text + "', '" + item.SubItems[2].Text + "',N'" + item.SubItems[3].Text + "' , '" + 0 + "'  )", sqlConnection);
+                      sqlCommand.ExecuteNonQuery();
+                      item.SubItems[2].Text = temp;
                 }
             }
             else
@@ -331,7 +348,7 @@ namespace QuanLyKhachSan
         private void btnThem_Click(object sender, EventArgs e)
         {
             RemovePhong();
-            AddPhong();// thêm phòng khi click
+            AddPhong();
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
@@ -352,31 +369,32 @@ namespace QuanLyKhachSan
                         checkBox.Checked = false;
                     if (rbtnC.Checked == true && checkBox.Checked == true && checkBox.Enabled == true)
                         checkBox.Checked = false;
+
                 }
             }
         }
 
         private void rbtnA_CheckedChanged(object sender, EventArgs e)
         {
-            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(150000);
+            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(400000);
             CheckPhong();
-            ChangeLoaiPhong("A");
+            ChangeLoaiPhong("Standard");
             txtGhiChu.Clear();
         }
 
         private void rbtnB_CheckedChanged(object sender, EventArgs e)
         {
-            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(170000);
+            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(1000000);
             CheckPhong();
-            ChangeLoaiPhong("B");
+            ChangeLoaiPhong("Superior");
             txtGhiChu.Clear();
         }
 
         private void rbtnC_CheckedChanged(object sender, EventArgs e)
         {
-            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(200000);
+            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(2000000);
             CheckPhong();
-            ChangeLoaiPhong("C");
+            ChangeLoaiPhong("Deluxe");
             txtGhiChu.Clear();
         }
 
@@ -395,6 +413,12 @@ namespace QuanLyKhachSan
         }
 
         #endregion
+
+
+
+
+
+
 
     }
 }

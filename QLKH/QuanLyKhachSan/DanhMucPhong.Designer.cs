@@ -132,7 +132,7 @@
             this.lsvDanhMucPhong.FullRowSelect = true;
             this.lsvDanhMucPhong.GridLines = true;
             this.lsvDanhMucPhong.Location = new System.Drawing.Point(56, 446);
-            this.lsvDanhMucPhong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lsvDanhMucPhong.Margin = new System.Windows.Forms.Padding(4);
             this.lsvDanhMucPhong.MultiSelect = false;
             this.lsvDanhMucPhong.Name = "lsvDanhMucPhong";
             this.lsvDanhMucPhong.Size = new System.Drawing.Size(871, 221);
@@ -155,7 +155,7 @@
             // 
             this.txtGhiChu.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGhiChu.Location = new System.Drawing.Point(165, 393);
-            this.txtGhiChu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtGhiChu.Margin = new System.Windows.Forms.Padding(4);
             this.txtGhiChu.Name = "txtGhiChu";
             this.txtGhiChu.Size = new System.Drawing.Size(267, 27);
             this.txtGhiChu.TabIndex = 0;
@@ -164,8 +164,8 @@
             // 
             this.ckb309.AutoSize = true;
             this.ckb309.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb309.Location = new System.Drawing.Point(869, 326);
-            this.ckb309.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb309.Location = new System.Drawing.Point(869, 332);
+            this.ckb309.Margin = new System.Windows.Forms.Padding(4);
             this.ckb309.Name = "ckb309";
             this.ckb309.Size = new System.Drawing.Size(58, 23);
             this.ckb309.TabIndex = 84;
@@ -176,8 +176,8 @@
             // 
             this.ckb209.AutoSize = true;
             this.ckb209.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb209.Location = new System.Drawing.Point(869, 299);
-            this.ckb209.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb209.Location = new System.Drawing.Point(869, 305);
+            this.ckb209.Margin = new System.Windows.Forms.Padding(4);
             this.ckb209.Name = "ckb209";
             this.ckb209.Size = new System.Drawing.Size(58, 23);
             this.ckb209.TabIndex = 85;
@@ -188,8 +188,8 @@
             // 
             this.ckb109.AutoSize = true;
             this.ckb109.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb109.Location = new System.Drawing.Point(869, 270);
-            this.ckb109.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb109.Location = new System.Drawing.Point(869, 276);
+            this.ckb109.Margin = new System.Windows.Forms.Padding(4);
             this.ckb109.Name = "ckb109";
             this.ckb109.Size = new System.Drawing.Size(58, 23);
             this.ckb109.TabIndex = 86;
@@ -200,8 +200,8 @@
             // 
             this.ckb308.AutoSize = true;
             this.ckb308.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb308.Location = new System.Drawing.Point(781, 326);
-            this.ckb308.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb308.Location = new System.Drawing.Point(781, 332);
+            this.ckb308.Margin = new System.Windows.Forms.Padding(4);
             this.ckb308.Name = "ckb308";
             this.ckb308.Size = new System.Drawing.Size(58, 23);
             this.ckb308.TabIndex = 87;
@@ -212,8 +212,8 @@
             // 
             this.ckb208.AutoSize = true;
             this.ckb208.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb208.Location = new System.Drawing.Point(781, 299);
-            this.ckb208.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb208.Location = new System.Drawing.Point(781, 305);
+            this.ckb208.Margin = new System.Windows.Forms.Padding(4);
             this.ckb208.Name = "ckb208";
             this.ckb208.Size = new System.Drawing.Size(58, 23);
             this.ckb208.TabIndex = 88;
@@ -224,8 +224,8 @@
             // 
             this.ckb108.AutoSize = true;
             this.ckb108.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb108.Location = new System.Drawing.Point(781, 270);
-            this.ckb108.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb108.Location = new System.Drawing.Point(781, 276);
+            this.ckb108.Margin = new System.Windows.Forms.Padding(4);
             this.ckb108.Name = "ckb108";
             this.ckb108.Size = new System.Drawing.Size(58, 23);
             this.ckb108.TabIndex = 91;
@@ -236,8 +236,8 @@
             // 
             this.ckb306.AutoSize = true;
             this.ckb306.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb306.Location = new System.Drawing.Point(605, 326);
-            this.ckb306.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb306.Location = new System.Drawing.Point(605, 332);
+            this.ckb306.Margin = new System.Windows.Forms.Padding(4);
             this.ckb306.Name = "ckb306";
             this.ckb306.Size = new System.Drawing.Size(58, 23);
             this.ckb306.TabIndex = 90;
@@ -248,8 +248,8 @@
             // 
             this.ckb206.AutoSize = true;
             this.ckb206.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb206.Location = new System.Drawing.Point(605, 299);
-            this.ckb206.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb206.Location = new System.Drawing.Point(605, 305);
+            this.ckb206.Margin = new System.Windows.Forms.Padding(4);
             this.ckb206.Name = "ckb206";
             this.ckb206.Size = new System.Drawing.Size(58, 23);
             this.ckb206.TabIndex = 99;
@@ -260,8 +260,8 @@
             // 
             this.ckb106.AutoSize = true;
             this.ckb106.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb106.Location = new System.Drawing.Point(605, 270);
-            this.ckb106.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb106.Location = new System.Drawing.Point(605, 276);
+            this.ckb106.Margin = new System.Windows.Forms.Padding(4);
             this.ckb106.Name = "ckb106";
             this.ckb106.Size = new System.Drawing.Size(58, 23);
             this.ckb106.TabIndex = 92;
@@ -272,8 +272,8 @@
             // 
             this.ckb307.AutoSize = true;
             this.ckb307.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb307.Location = new System.Drawing.Point(693, 326);
-            this.ckb307.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb307.Location = new System.Drawing.Point(693, 332);
+            this.ckb307.Margin = new System.Windows.Forms.Padding(4);
             this.ckb307.Name = "ckb307";
             this.ckb307.Size = new System.Drawing.Size(58, 23);
             this.ckb307.TabIndex = 93;
@@ -284,8 +284,8 @@
             // 
             this.ckb207.AutoSize = true;
             this.ckb207.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb207.Location = new System.Drawing.Point(693, 299);
-            this.ckb207.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb207.Location = new System.Drawing.Point(693, 305);
+            this.ckb207.Margin = new System.Windows.Forms.Padding(4);
             this.ckb207.Name = "ckb207";
             this.ckb207.Size = new System.Drawing.Size(58, 23);
             this.ckb207.TabIndex = 94;
@@ -296,8 +296,8 @@
             // 
             this.ckb107.AutoSize = true;
             this.ckb107.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb107.Location = new System.Drawing.Point(693, 270);
-            this.ckb107.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb107.Location = new System.Drawing.Point(693, 276);
+            this.ckb107.Margin = new System.Windows.Forms.Padding(4);
             this.ckb107.Name = "ckb107";
             this.ckb107.Size = new System.Drawing.Size(58, 23);
             this.ckb107.TabIndex = 95;
@@ -308,8 +308,8 @@
             // 
             this.ckb305.AutoSize = true;
             this.ckb305.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb305.Location = new System.Drawing.Point(517, 326);
-            this.ckb305.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb305.Location = new System.Drawing.Point(517, 332);
+            this.ckb305.Margin = new System.Windows.Forms.Padding(4);
             this.ckb305.Name = "ckb305";
             this.ckb305.Size = new System.Drawing.Size(58, 23);
             this.ckb305.TabIndex = 96;
@@ -320,8 +320,8 @@
             // 
             this.ckb205.AutoSize = true;
             this.ckb205.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb205.Location = new System.Drawing.Point(517, 299);
-            this.ckb205.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb205.Location = new System.Drawing.Point(517, 305);
+            this.ckb205.Margin = new System.Windows.Forms.Padding(4);
             this.ckb205.Name = "ckb205";
             this.ckb205.Size = new System.Drawing.Size(58, 23);
             this.ckb205.TabIndex = 97;
@@ -332,8 +332,8 @@
             // 
             this.ckb105.AutoSize = true;
             this.ckb105.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb105.Location = new System.Drawing.Point(517, 270);
-            this.ckb105.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb105.Location = new System.Drawing.Point(517, 276);
+            this.ckb105.Margin = new System.Windows.Forms.Padding(4);
             this.ckb105.Name = "ckb105";
             this.ckb105.Size = new System.Drawing.Size(58, 23);
             this.ckb105.TabIndex = 98;
@@ -344,8 +344,8 @@
             // 
             this.ckb304.AutoSize = true;
             this.ckb304.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb304.Location = new System.Drawing.Point(429, 326);
-            this.ckb304.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb304.Location = new System.Drawing.Point(429, 332);
+            this.ckb304.Margin = new System.Windows.Forms.Padding(4);
             this.ckb304.Name = "ckb304";
             this.ckb304.Size = new System.Drawing.Size(58, 23);
             this.ckb304.TabIndex = 83;
@@ -356,8 +356,8 @@
             // 
             this.ckb204.AutoSize = true;
             this.ckb204.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb204.Location = new System.Drawing.Point(429, 299);
-            this.ckb204.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb204.Location = new System.Drawing.Point(429, 305);
+            this.ckb204.Margin = new System.Windows.Forms.Padding(4);
             this.ckb204.Name = "ckb204";
             this.ckb204.Size = new System.Drawing.Size(58, 23);
             this.ckb204.TabIndex = 89;
@@ -368,8 +368,8 @@
             // 
             this.ckb104.AutoSize = true;
             this.ckb104.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb104.Location = new System.Drawing.Point(429, 270);
-            this.ckb104.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb104.Location = new System.Drawing.Point(429, 276);
+            this.ckb104.Margin = new System.Windows.Forms.Padding(4);
             this.ckb104.Name = "ckb104";
             this.ckb104.Size = new System.Drawing.Size(58, 23);
             this.ckb104.TabIndex = 82;
@@ -380,8 +380,8 @@
             // 
             this.ckb303.AutoSize = true;
             this.ckb303.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb303.Location = new System.Drawing.Point(341, 326);
-            this.ckb303.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb303.Location = new System.Drawing.Point(341, 332);
+            this.ckb303.Margin = new System.Windows.Forms.Padding(4);
             this.ckb303.Name = "ckb303";
             this.ckb303.Size = new System.Drawing.Size(58, 23);
             this.ckb303.TabIndex = 81;
@@ -392,8 +392,8 @@
             // 
             this.ckb203.AutoSize = true;
             this.ckb203.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb203.Location = new System.Drawing.Point(341, 299);
-            this.ckb203.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb203.Location = new System.Drawing.Point(341, 305);
+            this.ckb203.Margin = new System.Windows.Forms.Padding(4);
             this.ckb203.Name = "ckb203";
             this.ckb203.Size = new System.Drawing.Size(58, 23);
             this.ckb203.TabIndex = 80;
@@ -404,8 +404,8 @@
             // 
             this.ckb103.AutoSize = true;
             this.ckb103.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb103.Location = new System.Drawing.Point(341, 270);
-            this.ckb103.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb103.Location = new System.Drawing.Point(341, 276);
+            this.ckb103.Margin = new System.Windows.Forms.Padding(4);
             this.ckb103.Name = "ckb103";
             this.ckb103.Size = new System.Drawing.Size(58, 23);
             this.ckb103.TabIndex = 79;
@@ -416,8 +416,8 @@
             // 
             this.ckb302.AutoSize = true;
             this.ckb302.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb302.Location = new System.Drawing.Point(253, 326);
-            this.ckb302.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb302.Location = new System.Drawing.Point(253, 332);
+            this.ckb302.Margin = new System.Windows.Forms.Padding(4);
             this.ckb302.Name = "ckb302";
             this.ckb302.Size = new System.Drawing.Size(58, 23);
             this.ckb302.TabIndex = 78;
@@ -428,8 +428,8 @@
             // 
             this.ckb301.AutoSize = true;
             this.ckb301.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb301.Location = new System.Drawing.Point(165, 326);
-            this.ckb301.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb301.Location = new System.Drawing.Point(165, 332);
+            this.ckb301.Margin = new System.Windows.Forms.Padding(4);
             this.ckb301.Name = "ckb301";
             this.ckb301.Size = new System.Drawing.Size(58, 23);
             this.ckb301.TabIndex = 77;
@@ -440,8 +440,8 @@
             // 
             this.ckb202.AutoSize = true;
             this.ckb202.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb202.Location = new System.Drawing.Point(253, 299);
-            this.ckb202.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb202.Location = new System.Drawing.Point(253, 305);
+            this.ckb202.Margin = new System.Windows.Forms.Padding(4);
             this.ckb202.Name = "ckb202";
             this.ckb202.Size = new System.Drawing.Size(58, 23);
             this.ckb202.TabIndex = 76;
@@ -452,8 +452,8 @@
             // 
             this.ckb201.AutoSize = true;
             this.ckb201.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb201.Location = new System.Drawing.Point(165, 299);
-            this.ckb201.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb201.Location = new System.Drawing.Point(165, 305);
+            this.ckb201.Margin = new System.Windows.Forms.Padding(4);
             this.ckb201.Name = "ckb201";
             this.ckb201.Size = new System.Drawing.Size(58, 23);
             this.ckb201.TabIndex = 75;
@@ -464,8 +464,8 @@
             // 
             this.ckb102.AutoSize = true;
             this.ckb102.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb102.Location = new System.Drawing.Point(253, 270);
-            this.ckb102.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb102.Location = new System.Drawing.Point(253, 276);
+            this.ckb102.Margin = new System.Windows.Forms.Padding(4);
             this.ckb102.Name = "ckb102";
             this.ckb102.Size = new System.Drawing.Size(58, 23);
             this.ckb102.TabIndex = 74;
@@ -476,8 +476,8 @@
             // 
             this.ckb101.AutoSize = true;
             this.ckb101.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckb101.Location = new System.Drawing.Point(165, 270);
-            this.ckb101.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ckb101.Location = new System.Drawing.Point(165, 276);
+            this.ckb101.Margin = new System.Windows.Forms.Padding(4);
             this.ckb101.Name = "ckb101";
             this.ckb101.Size = new System.Drawing.Size(58, 23);
             this.ckb101.TabIndex = 73;
@@ -489,7 +489,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Location = new System.Drawing.Point(56, 270);
+            this.label2.Location = new System.Drawing.Point(56, 276);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 19);
@@ -500,13 +500,12 @@
             // 
             this.rbtnC.AutoSize = true;
             this.rbtnC.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnC.Location = new System.Drawing.Point(341, 146);
-            this.rbtnC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbtnC.Location = new System.Drawing.Point(387, 123);
+            this.rbtnC.Margin = new System.Windows.Forms.Padding(4);
             this.rbtnC.Name = "rbtnC";
-            this.rbtnC.Size = new System.Drawing.Size(42, 23);
+            this.rbtnC.Size = new System.Drawing.Size(79, 23);
             this.rbtnC.TabIndex = 71;
-            this.rbtnC.TabStop = true;
-            this.rbtnC.Text = "C";
+            this.rbtnC.Text = "Deluxe";
             this.rbtnC.UseVisualStyleBackColor = true;
             this.rbtnC.Click += new System.EventHandler(this.rbtnC_CheckedChanged);
             // 
@@ -514,13 +513,12 @@
             // 
             this.rbtnB.AutoSize = true;
             this.rbtnB.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnB.Location = new System.Drawing.Point(253, 146);
-            this.rbtnB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbtnB.Location = new System.Drawing.Point(276, 123);
+            this.rbtnB.Margin = new System.Windows.Forms.Padding(4);
             this.rbtnB.Name = "rbtnB";
-            this.rbtnB.Size = new System.Drawing.Size(41, 23);
+            this.rbtnB.Size = new System.Drawing.Size(93, 23);
             this.rbtnB.TabIndex = 70;
-            this.rbtnB.TabStop = true;
-            this.rbtnB.Text = "B";
+            this.rbtnB.Text = "Superior";
             this.rbtnB.UseVisualStyleBackColor = true;
             this.rbtnB.Click += new System.EventHandler(this.rbtnB_CheckedChanged);
             // 
@@ -528,13 +526,12 @@
             // 
             this.rbtnA.AutoSize = true;
             this.rbtnA.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnA.Location = new System.Drawing.Point(164, 146);
-            this.rbtnA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbtnA.Location = new System.Drawing.Point(165, 125);
+            this.rbtnA.Margin = new System.Windows.Forms.Padding(4);
             this.rbtnA.Name = "rbtnA";
-            this.rbtnA.Size = new System.Drawing.Size(41, 23);
+            this.rbtnA.Size = new System.Drawing.Size(96, 23);
             this.rbtnA.TabIndex = 69;
-            this.rbtnA.TabStop = true;
-            this.rbtnA.Text = "A";
+            this.rbtnA.Text = "Standard";
             this.rbtnA.UseVisualStyleBackColor = true;
             this.rbtnA.Click += new System.EventHandler(this.rbtnA_CheckedChanged);
             // 
@@ -543,7 +540,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label3.Location = new System.Drawing.Point(56, 149);
+            this.label3.Location = new System.Drawing.Point(56, 125);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(95, 19);
@@ -554,12 +551,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Roboto Condensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(52, 55);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(242, 42);
+            this.label1.Size = new System.Drawing.Size(265, 38);
             this.label1.TabIndex = 9;
             this.label1.Text = "Danh mục phòng";
             // 
@@ -567,7 +564,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(337, 206);
+            this.label6.Location = new System.Drawing.Point(340, 182);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(43, 19);
@@ -579,8 +576,8 @@
             this.txtDonGia.BackColor = System.Drawing.SystemColors.Control;
             this.txtDonGia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDonGia.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDonGia.Location = new System.Drawing.Point(164, 202);
-            this.txtDonGia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDonGia.Location = new System.Drawing.Point(168, 182);
+            this.txtDonGia.Margin = new System.Windows.Forms.Padding(4);
             this.txtDonGia.Name = "txtDonGia";
             this.txtDonGia.ReadOnly = true;
             this.txtDonGia.Size = new System.Drawing.Size(149, 27);
@@ -595,7 +592,7 @@
             this.btnThoat.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.ForeColor = System.Drawing.Color.Gray;
             this.btnThoat.Location = new System.Drawing.Point(828, 703);
-            this.btnThoat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(4);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(100, 46);
             this.btnThoat.TabIndex = 5;
@@ -612,7 +609,7 @@
             this.btnMenu.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenu.ForeColor = System.Drawing.Color.Gray;
             this.btnMenu.Location = new System.Drawing.Point(57, 703);
-            this.btnMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMenu.Margin = new System.Windows.Forms.Padding(4);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(168, 46);
             this.btnMenu.TabIndex = 3;
@@ -628,7 +625,7 @@
             this.btnLuu.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuu.ForeColor = System.Drawing.Color.White;
             this.btnLuu.Location = new System.Drawing.Point(719, 703);
-            this.btnLuu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(4);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(100, 46);
             this.btnLuu.TabIndex = 4;
@@ -653,7 +650,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label4.Location = new System.Drawing.Point(56, 206);
+            this.label4.Location = new System.Drawing.Point(56, 190);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(73, 19);
@@ -711,7 +708,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "DanhMucPhong";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -772,5 +769,9 @@
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.Button btnDatLai;
+      
+        
+       
+      
     }
 }

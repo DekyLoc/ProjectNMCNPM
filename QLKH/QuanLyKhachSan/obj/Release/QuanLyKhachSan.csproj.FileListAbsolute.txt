@@ -1,0 +1,10 @@
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\bin\Release\QuanLyKhachSan.exe.config
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.DanhMucPhong.resources
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.TraCuu.resources
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.Menu.resources
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.PhieuThuePhong.resources
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.Properties.Resources.resources
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.SuaThongTin.resources
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.TroGiup.resources
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.csproj.GenerateResource.Cache

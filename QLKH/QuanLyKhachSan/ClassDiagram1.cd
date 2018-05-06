@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QuanLyKhachSan.Container" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAADAAE=</HashCode>
+      <FileName>Container.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyKhachSan.DanhMucPhong" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCCABEALSAQAhACdACIIBASiBABLAAkAoACAAAkAAA=</HashCode>
+      <FileName>DanhMucPhong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyKhachSan.KhachHang" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIQAAEIAAAAAAAAAQAAAAEAkAAAAABAAAQCAAACAA=</HashCode>
+      <FileName>KhachHang.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyKhachSan.Menu" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAgAAgCQIAFAAAESABAACABAAAAAAJIAAKAEiAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyKhachSan.PhieuThuePhong" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MoCAAAQggSAIETA8NRSIygECgFDIIEAIAIEiQIClBAE=</HashCode>
+      <FileName>PhieuThuePhong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyKhachSan.Program" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyKhachSan.SuaThongTin" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAgASAQABAAAACASAECAFBAAEAAAAAAAACgAAE=</HashCode>
+      <FileName>SuaThongTin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyKhachSan.TraCuu" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggSAIAICRWQaKRAHBoCYQQD/A1ADiab7NLGkAARmTBM=</HashCode>
+      <FileName>TraCuu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyKhachSan.TroGiup" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAABAABACIAAACABAgAAAAEIAAAAAgAAA=</HashCode>
+      <FileName>TroGiup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyKhachSan.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyKhachSan.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
