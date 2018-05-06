@@ -1,4 +1,4 @@
-# ProjectNMCNPM
+# Restaurant Management Application
 
 -- Tiếng việt --
 
@@ -7,12 +7,12 @@
 Mô tả: Phần mềm hỗ trợ việc quản lý các hoạt động của khách sạn thông qua việc tin học hóa
 
 Chức năng:
-    - Kiểm tra thông tin phòng
-    - Lập phiếu thuê phòng
-    - Kiểm tra các dịch vụ
-    - Lưu thông tin khách hàng
-    - Lập hóa đơn
-    - Lập báo cáo tháng
+* Kiểm tra thông tin phòng
+* Lập phiếu thuê phòng
+* Kiểm tra các dịch vụ
+* Lưu thông tin khách hàng
+* Lập hóa đơn
+* Lập báo cáo tháng
 
 Môi trường cài đặt:
     - Hệ điều hành Window
