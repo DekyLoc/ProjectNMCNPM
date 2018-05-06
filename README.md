@@ -1,8 +1,17 @@
 # Restaurant Management Application
 
--- Tiếng việt --
+# Tiếng việt 
 
-Đề tài: Quản lý khách sạn
+Đề tài: Phần mềm Quản lý khách sạn
+
+Nhóm: Nice Grow
+Thành viên:
+* Nguyễn Võ Thái Dương	15520150
+* Nguyễn Huy Hảo		15520202
+* Nguyễn Hồ Sơn Hoàng	15520254
+* Trần Nguyên Khoa		15520380
+* Nguyễn Trần Khánh Lộc	15520432
+
 
 Mô tả: Phần mềm hỗ trợ việc quản lý các hoạt động của khách sạn thông qua việc tin học hóa các chức năng
 
@@ -19,10 +28,18 @@ Môi trường cài đặt:
 * Ngôn ngữ C#
 * SQL Server
     
-    
--- English --
+    
+# English 
 
 Subject: Restaurant Management Application
+
+Team: Nice Grow
+Member:
+* Nguyen Vo Thai Duong	15520150
+* Nguyen Huy Hao		15520202
+* Nguyen Ho Son Hoang	15520254
+* Tran Nguyen Khoa		15520380
+* Nguyen Tran Khanh Loc	15520432
 
 Description: The software supports the management of hotel operations through computerization
 
