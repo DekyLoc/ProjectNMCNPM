@@ -94,6 +94,8 @@ namespace QuanLyKhachSan
             }
         }
 
+
+        //contructor: phòng, mã, tên, loại, cmnd, địa chỉ.
         public KhachHang(string phong, string ma, string ten, string loai, string cmnd, string diachi)
         {
             this.phong = phong;
