@@ -358,13 +358,14 @@ namespace QuanLyKhachSan
             }
             SqlConnection sqlConnection = new SqlConnection(@"Data Source="+QuanLyKhachSan.Container.severName+";Initial Catalog=QUANLYKHACHSAN;Integrated Security=True");
             sqlConnection.Open();
-            SqlCommand sqlCommand = new SqlCommand("insert into HOADON values (@mahd,@maphieu,@ngaytra,@songaythue,@phuthu,@thanhtien)", sqlConnection);
+            SqlCommand sqlCommand = new SqlCommand("insert into HOADON values (@mahd,@maphieu,@ngaytra,@songaythue,@phuthu,@thanhtien,@trigia)", sqlConnection);
             sqlCommand.Parameters.AddWithValue("@mahd", txtMaHoaDon.Text);
             sqlCommand.Parameters.AddWithValue("@maphieu", txtMaPhieuThue.Text);
             sqlCommand.Parameters.AddWithValue("@ngaytra", dateTime.ToString(formatDateTime));
             sqlCommand.Parameters.AddWithValue("@songaythue", tempHiringDays);
             sqlCommand.Parameters.AddWithValue("@phuthu", Int32.Parse(extraMoney.ToString()));
             sqlCommand.Parameters.AddWithValue("@thanhtien", tempTotalAmount);
+            sqlCommand.Parameters.AddWithValue("@trigia",'1');
             sqlCommand.ExecuteNonQuery();
             sqlConnection.Close();
         }
