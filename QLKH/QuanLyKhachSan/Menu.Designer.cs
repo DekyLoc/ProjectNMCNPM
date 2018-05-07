@@ -104,6 +104,7 @@
             this.btnHoaDon.Text = "Lập hoá đơn";
             this.btnHoaDon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHoaDon.UseVisualStyleBackColor = false;
+            this.btnHoaDon.Click += new System.EventHandler(this.btnHoaDon_Click);
             // 
             // btnDanhSachPhong
             // 
