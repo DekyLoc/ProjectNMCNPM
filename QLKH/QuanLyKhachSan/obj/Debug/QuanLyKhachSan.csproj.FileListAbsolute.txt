@@ -12,3 +12,4 @@ D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.HoaDonThanhToan.resources

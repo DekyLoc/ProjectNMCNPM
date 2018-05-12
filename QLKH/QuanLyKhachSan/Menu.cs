@@ -100,20 +100,20 @@ namespace QuanLyKhachSan
             this.Show();
         }
 
-        //private void btnHoaDon_Click(object sender, EventArgs e)
-        //{
-        //    this.Visible = false;
-        //    HoaDonThanhToan frmHoaDon = new HoaDonThanhToan();
-        //    frmHoaDon.ReturnMenu += FrmHoaDon_Menu;
-        //    frmHoaDon.Show();
-        //}
+        private void btnHoaDon_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            HoaDonThanhToan frmHoaDon = new HoaDonThanhToan();
+            frmHoaDon.ReturnMenu += FrmHoaDon_Menu;
+            frmHoaDon.Show();
+        }
 
-        //private void FrmHoaDon_Menu(object sender, EventArgs e)
-        //{
-        //    (sender as HoaDonThanhToan).isExit = false;
-        //    (sender as HoaDonThanhToan).Close();
-        //    this.Show();
-        //}
+        private void FrmHoaDon_Menu(object sender, EventArgs e)
+        {
+            (sender as HoaDonThanhToan).isExit = false;
+            (sender as HoaDonThanhToan).Close();
+            this.Show();
+        }
 
         //private void btnBaoCao_Click(object sender, EventArgs e)
         //{
@@ -147,6 +147,7 @@ namespace QuanLyKhachSan
 
         #endregion
 
+ 
 
     }
 }
