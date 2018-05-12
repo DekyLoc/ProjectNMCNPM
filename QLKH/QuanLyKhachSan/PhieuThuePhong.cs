@@ -438,6 +438,7 @@ namespace QuanLyKhachSan
         // Lưu thông tin phiếu thuê.
         void SaveDataPT()
         {
+            //Ngày thuê phòng
             DateTime dateTime = DateTime.Now;
             string dateTimeFormat = "yyyy-MM-dd";
             foreach (ListViewItem item in lsvPhieuThue.Items)
