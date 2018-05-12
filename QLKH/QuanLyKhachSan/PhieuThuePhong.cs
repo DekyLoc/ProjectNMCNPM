@@ -285,6 +285,7 @@ namespace QuanLyKhachSan
         {
             if (lsvPhieuThue.SelectedItems.Count == 0)
             {
+                //Thêm dinalogBox thông báo khi xóa
                 MessageBox.Show("Vui lòng chọn thông tin cần xoá!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
