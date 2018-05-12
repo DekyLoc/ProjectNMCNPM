@@ -56,3 +56,11 @@ CREATE TABLE BAOCAO
 );
 
 SET DATEFORMAT DMY
+
+CREATE TABLE DANGNHAP
+(
+	User_Name varchar(20),
+	Pass_Word varchar(20)
+);
+
+INSERT INTO DANGNHAP(User_Name,Pass_Word) VALUES('admin','admin');
