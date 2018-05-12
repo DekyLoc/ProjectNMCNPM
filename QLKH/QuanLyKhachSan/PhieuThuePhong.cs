@@ -378,6 +378,7 @@ namespace QuanLyKhachSan
         // Lưu thông tin khách hàng.
         void SaveDataKH()
         {
+            //ERD
             SqlConnection sqlConnection = new SqlConnection(@"Data Source="+QuanLyKhachSan.Container.severName+";Initial Catalog=QUANLYKHACHSAN;Integrated Security=True");
             SqlDataAdapter sqlDataAdapterKH = new SqlDataAdapter("select * from KHACHHANG", sqlConnection);
             DataTable dataTablelKH = new DataTable();
