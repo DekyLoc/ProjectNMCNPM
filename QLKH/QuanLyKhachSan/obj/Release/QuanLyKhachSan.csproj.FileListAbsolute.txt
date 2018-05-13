@@ -1,5 +1,4 @@
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\bin\Release\QuanLyKhachSan.exe.config
-D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.csprojResolveAssemblyReference.cache
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.DanhMucPhong.resources
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.TraCuu.resources
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.Menu.resources
@@ -8,3 +7,10 @@ D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.P
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.SuaThongTin.resources
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.TroGiup.resources
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.csproj.GenerateResource.Cache
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\bin\Release\QuanLyKhachSan.exe
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\bin\Release\QuanLyKhachSan.pdb
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.HoaDonThanhToan.resources
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.exe
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.pdb
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.Login.resources
