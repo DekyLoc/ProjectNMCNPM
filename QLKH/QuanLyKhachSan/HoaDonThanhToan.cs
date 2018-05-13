@@ -35,7 +35,7 @@ namespace QuanLyKhachSan
         public double extraMoney;
 
         // Thành tiền.
-        public double totalAmount;
+        public double totalMoney;
 
         // Thành tiền sau khi format.
         public int formattedTotalAmount;
@@ -228,27 +228,27 @@ namespace QuanLyKhachSan
 
                     if (dataTablePT.Rows[i][4].ToString() == "3" && dataTablePT.Rows[i][5].ToString() == "False")
                     {
-                        totalAmount = hiringDays * unitPrice * 1.25;
-                        extraMoney = totalAmount - (hiringDays * unitPrice);
+                        totalMoney = hiringDays * unitPrice * 1.25;
+                        extraMoney = totalMoney - (hiringDays * unitPrice);
                     }
                     else if (dataTablePT.Rows[i][4].ToString() != "3" && dataTablePT.Rows[i][5].ToString() == "True")
                     {
-                        totalAmount = hiringDays * unitPrice * 1.5;
-                        extraMoney = totalAmount - (hiringDays * unitPrice);
+                        totalMoney = hiringDays * unitPrice * 1.5;
+                        extraMoney = totalMoney - (hiringDays * unitPrice);
                     }
                     else if (dataTablePT.Rows[i][4].ToString() == "3" && dataTablePT.Rows[i][5].ToString() == "True")
                     {
-                        totalAmount = hiringDays * unitPrice * 1.25 * 1.5;
-                        extraMoney = totalAmount - (hiringDays * unitPrice);
+                        totalMoney = hiringDays * unitPrice * 1.25 * 1.5;
+                        extraMoney = totalMoney - (hiringDays * unitPrice);
                     }
                     else
                     {
-                        totalAmount = hiringDays * unitPrice;
+                        totalMoney = hiringDays * unitPrice;
                         extraMoney = 0;
                     }
-                    item.SubItems.Add(new ListViewItem.ListViewSubItem() { Text = QuanLyKhachSan.Container.FormatMoney(Int32.Parse(totalAmount.ToString())) }); //Column 6
+                    item.SubItems.Add(new ListViewItem.ListViewSubItem() { Text = QuanLyKhachSan.Container.FormatMoney(Int32.Parse(totalMoney.ToString())) }); //Column 6
                     lsvHoaDon.Items.Add(item);
-                    txtTriGia.Text = QuanLyKhachSan.Container.FormatMoney(Int32.Parse(totalAmount.ToString()));
+                    txtTriGia.Text = QuanLyKhachSan.Container.FormatMoney(Int32.Parse(totalMoney.ToString()));
                     btnThanhToan.Enabled = true;
                 }
             }
@@ -333,20 +333,14 @@ namespace QuanLyKhachSan
             }
             sqlConnection.Close();
 
-            foreach (ListViewItem item in lsvHoaDon.Items)
-            {
-                if (item == null)
-                    return;
-                formattedTotalAmount += QuanLyKhachSan.Container.FormatMoney(item.SubItems[5].Text);
-            }
-            MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+           
         }
 
         // Lưu hoá đơn.
         void SaveHD()
         {
             DateTime dateTime = DateTime.Now;
-            string formatDateTime = "yyyy-MM-dd";
+            string formatDateTime = "dd-MM-yyyy";
             int tempHiringDays = 0;
             int tempTotalAmount = 0;
             foreach (ListViewItem item in lsvHoaDon.Items)
@@ -425,7 +419,7 @@ namespace QuanLyKhachSan
             ReturnMenu(this, new EventArgs());
         }
         #endregion
-       
+        
         #region Graphics
         protected override void OnPaint(PaintEventArgs e)
         {

@@ -13,3 +13,18 @@ D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.HoaDonThanhToan.resources
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.DanhMucPhong.resources
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.HoaDonThanhToan.resources
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.TraCuu.resources
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Menu.resources
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.PhieuThuePhong.resources
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.SuaThongTin.resources
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.TroGiup.resources
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
