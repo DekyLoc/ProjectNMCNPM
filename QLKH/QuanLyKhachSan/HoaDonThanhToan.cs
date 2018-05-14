@@ -333,7 +333,13 @@ namespace QuanLyKhachSan
             }
             sqlConnection.Close();
 
-           
+            foreach (ListViewItem item in lsvHoaDon.Items)
+            {
+                if (item == null)
+                    return;
+                formattedTotalAmount += QuanLyKhachSan.Container.FormatMoney(item.SubItems[5].Text);
+            }
+            MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         // Lưu hoá đơn.

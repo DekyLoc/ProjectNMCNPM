@@ -28,3 +28,4 @@ C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan
 C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
 C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
 C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Login.resources
