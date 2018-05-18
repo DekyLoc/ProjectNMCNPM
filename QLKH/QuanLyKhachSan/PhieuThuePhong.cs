@@ -285,6 +285,7 @@ namespace QuanLyKhachSan
         {
             if (lsvPhieuThue.SelectedItems.Count == 0)
             {
+                //Thêm dinalogBox thông báo khi xóa
                 MessageBox.Show("Vui lòng chọn thông tin cần xoá!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
@@ -377,6 +378,7 @@ namespace QuanLyKhachSan
         // Lưu thông tin khách hàng.
         void SaveDataKH()
         {
+            //ERD
             SqlConnection sqlConnection = new SqlConnection(@"Data Source="+QuanLyKhachSan.Container.severName+";Initial Catalog=QUANLYKHACHSAN;Integrated Security=True");
             SqlDataAdapter sqlDataAdapterKH = new SqlDataAdapter("select * from KHACHHANG", sqlConnection);
             DataTable dataTablelKH = new DataTable();
@@ -436,6 +438,7 @@ namespace QuanLyKhachSan
         // Lưu thông tin phiếu thuê.
         void SaveDataPT()
         {
+            //Ngày thuê phòng
             DateTime dateTime = DateTime.Now;
             string dateTimeFormat = "yyyy-MM-dd";
             foreach (ListViewItem item in lsvPhieuThue.Items)

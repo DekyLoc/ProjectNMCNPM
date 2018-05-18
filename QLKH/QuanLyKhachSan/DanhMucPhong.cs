@@ -33,7 +33,8 @@ namespace QuanLyKhachSan
         #region Đóng form
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            DialogResult dr = MessageBox.Show("Bạn có chắc chắn muốn thoát chương trình?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            //Show dialog notify
+            DialogResult dr = MessageBox.Show("Bạn có chắc muốn thoát chương trình?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if(dr == DialogResult.Yes)
             {
                 FormClose();
