@@ -1,4 +1,4 @@
-# Restaurant Management Application
+# Hotel Management Application
 
 # Tiếng việt 
 
@@ -32,7 +32,7 @@
     
 # English 
 
-**Subject:** Restaurant Management Application
+**Subject:** Hotel Management Application
 
 **Team: Nice Grow**
 
