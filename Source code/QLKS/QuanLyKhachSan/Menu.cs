@@ -115,20 +115,20 @@ namespace QuanLyKhachSan
             this.Show();
         }
 
-        private void btnBaoCao_Click(object sender, EventArgs e)
-        {
-            this.Visible = false;
-            BaoCaoThang frmBaoCao = new BaoCaoThang();
-            frmBaoCao.ReturnMenu += FrmBaoCao_Menu;
-            frmBaoCao.Show();
-        }
+        //private void btnBaoCao_Click(object sender, EventArgs e)
+        //{
+        //    this.Visible = false;
+        //    BaoCaoThang frmBaoCao = new BaoCaoThang();
+        //    frmBaoCao.ReturnMenu += FrmBaoCao_Menu;
+        //    frmBaoCao.Show();
+        //}
 
-        private void FrmBaoCao_Menu(object sender, EventArgs e)
-        {
-            (sender as BaoCaoThang).isExit = false;
-            (sender as BaoCaoThang).Close();
-            this.Show();
-        }
+        //private void FrmBaoCao_Menu(object sender, EventArgs e)
+        //{
+        //    (sender as BaoCaoThang).isExit = false;
+        //    (sender as BaoCaoThang).Close();
+        //    this.Show();
+        //}
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
@@ -146,6 +146,8 @@ namespace QuanLyKhachSan
         }
 
         #endregion
+
+ 
 
     }
 }
