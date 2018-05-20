@@ -25,7 +25,7 @@ namespace QuanLyKhachSan
         public static string selectedPhong;
 
         // Lưu tên sever
-        public static string severName = System.Windows.Forms.SystemInformation.ComputerName + "\\SQLEXPRESS";
+        public static string severName = System.Windows.Forms.SystemInformation.ComputerName + "\\TOBI";
         #endregion
 
         #region Chuyển đổi định dạng tiền.

@@ -14,3 +14,4 @@ D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.e
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.pdb
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.csprojResolveAssemblyReference.cache
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.Login.resources
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Release\QuanLyKhachSan.BaoCaoThang.resources
