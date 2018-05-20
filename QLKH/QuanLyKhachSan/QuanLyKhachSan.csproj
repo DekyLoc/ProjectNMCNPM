@@ -65,7 +65,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaoCaoThang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCaoThang.designer.cs">
+      <DependentUpon>BaoCaoThang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Container.cs" />
+    <Compile Include="DoanhThu.cs" />
+    <Compile Include="DSDoanhThu.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +125,9 @@
     <Compile Include="TroGiup.Designer.cs">
       <DependentUpon>TroGiup.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BaoCaoThang.resx">
+      <DependentUpon>BaoCaoThang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DanhMucPhong.resx">
       <DependentUpon>DanhMucPhong.cs</DependentUpon>
     </EmbeddedResource>
@@ -152,7 +163,6 @@
       <DependentUpon>TroGiup.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
