@@ -382,6 +382,114 @@ namespace QuanLyKhachSan
             }
         }
 
+        // Xuất báo cáo.
+        void ShowBaoCao()
+        {
+            if(DSDoanhThu.Instance.DanhSachDoanhThu.Count != 3)
+            {
+                MessageBox.Show("Vui lòng lưu doanh thu tất cả loại phòng!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            ClearListViewBC();
+            foreach (DoanhThu doanhthu in DSDoanhThu.Instance.DanhSachDoanhThu)
+            {
+                if (doanhthu == null)
+                    return;
+                ListViewItem item = new ListViewItem(doanhthu.LoaiPhong);
+                item.SubItems.Add(new ListViewItem.ListViewSubItem() { Text = doanhthu.DoanhThuLoaiPhong });
+                item.SubItems.Add(new ListViewItem.ListViewSubItem() { Text = doanhthu.TyLe });
+                lsvBaoCao.Items.Add(item);
+            }
+            DSDoanhThu.Instance.DanhSachDoanhThu.Clear();
+        }
 
+        // Lưu báo cáo.
+        void SaveBaoCao()
+        {
+            if(lsvBaoCao.Items.Count == 0)
+            {
+                MessageBox.Show("Vui lòng xuất báo cáo!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            SqlConnection sqlConnection = new SqlConnection(@"Data Source="+QuanLyKhachSan.Container.severName+";Initial Catalog=QUANLYKHACHSAN;Integrated Security=True");
+            sqlConnection.Open();
+            foreach (ListViewItem item in lsvBaoCao.Items)
+            {
+                SqlCommand sqlCommand = new SqlCommand("insert into BAOCAO values ('" + txtMaBaoCao.Text + "',N'" + item.Text + "', '" + cmbThang.Text + "','" + QuanLyKhachSan.Container.FormatMoney(item.SubItems[1].Text) + "', '" + item.SubItems[2].Text + "' )", sqlConnection);
+                sqlCommand.ExecuteNonQuery();
+            }        
+            sqlConnection.Close();
+            MessageBox.Show("Lưu báo cáo thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            btnMenu_Click(this, new EventArgs());
+        }
+        #endregion
+
+        #region Gọi các sự kiện click button.
+        private void cmbThang_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            btnLuuDoanhThu.Enabled = true;
+            btnLuu.Enabled = true;
+            ClearListViewDT();
+            ClearListViewBC();
+            rbtnA.Checked = rbtnB.Checked = rbtnC.Checked = false;
+            totalSales = 0; // Trả doanh thu tổng về 0
+            CalculateSales(); // Tính doanh thu tổng
+            LoadBaoCao();
+        }
+
+        private void rbtnA_CheckedChanged(object sender, EventArgs e)
+        {
+            if(rbtnA.Checked == true)
+            {
+                ShowHoaDon();
+            }
+        }
+
+        private void rbtnB_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbtnB.Checked == true)
+            {
+                ShowHoaDon();
+            }
+        }
+
+        private void rbtnC_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbtnC.Checked == true)
+            {
+                ShowHoaDon();
+            }
+        }
+
+        private void btnLuuDoanhThu_Click(object sender, EventArgs e)
+        {
+            SaveSales();
+        }
+
+        private void btnXuatBaoCao_Click(object sender, EventArgs e)
+        {
+            ShowBaoCao();
+        }
+
+        private void btnLuu_Click(object sender, EventArgs e)
+        {
+            SaveBaoCao();
+        }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            ReturnMenu(this, new EventArgs());
+        }
+        #endregion
+       
+        #region Graphics
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            Graphics g = e.Graphics;
+            SolidBrush sBrush = new SolidBrush(Color.FromArgb(222, 152, 100));
+            g.FillRectangle(sBrush, 0, 0, this.Width, 90);
+        }
+
+        #endregion
     }
 }
