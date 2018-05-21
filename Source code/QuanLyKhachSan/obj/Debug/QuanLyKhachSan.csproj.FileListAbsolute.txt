@@ -30,3 +30,20 @@ C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan
 C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Login.resources
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.BaoCaoThang.resources
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Login.resources
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.BaoCaoThang.resources
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.DanhMucPhong.resources
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.HoaDonThanhToan.resources
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Login.resources
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.TraCuu.resources
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Menu.resources
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.PhieuThuePhong.resources
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.SuaThongTin.resources
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.TroGiup.resources
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
