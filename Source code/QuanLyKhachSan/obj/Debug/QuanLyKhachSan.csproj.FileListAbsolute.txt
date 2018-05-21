@@ -11,7 +11,6 @@ D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
-D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
 D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.HoaDonThanhToan.resources
 C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
 C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
@@ -29,3 +28,5 @@ C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan
 C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
 C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
 C:\Users\E5550\Documents\Visual Studio 2015\Projects\QLKS-pj\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Login.resources
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.BaoCaoThang.resources
+D:\Project_NMCNPM\ProjectNMCNPM\QLKH\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Login.resources

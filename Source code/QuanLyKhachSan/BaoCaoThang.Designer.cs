@@ -144,12 +144,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Roboto Condensed", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(35, 55);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(207, 41);
+            this.label1.Size = new System.Drawing.Size(227, 38);
             this.label1.TabIndex = 15;
             this.label1.Text = "Báo cáo tháng";
             // 
@@ -313,13 +313,13 @@
             // 
             this.rbtnC.AutoSize = true;
             this.rbtnC.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnC.Location = new System.Drawing.Point(357, 192);
+            this.rbtnC.Location = new System.Drawing.Point(399, 192);
             this.rbtnC.Margin = new System.Windows.Forms.Padding(4);
             this.rbtnC.Name = "rbtnC";
-            this.rbtnC.Size = new System.Drawing.Size(42, 23);
+            this.rbtnC.Size = new System.Drawing.Size(79, 23);
             this.rbtnC.TabIndex = 3;
             this.rbtnC.TabStop = true;
-            this.rbtnC.Text = "C";
+            this.rbtnC.Text = "Deluxe";
             this.rbtnC.UseVisualStyleBackColor = true;
             this.rbtnC.CheckedChanged += new System.EventHandler(this.rbtnC_CheckedChanged);
             // 
@@ -327,13 +327,13 @@
             // 
             this.rbtnB.AutoSize = true;
             this.rbtnB.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbtnB.Location = new System.Drawing.Point(261, 192);
+            this.rbtnB.Location = new System.Drawing.Point(285, 192);
             this.rbtnB.Margin = new System.Windows.Forms.Padding(4);
             this.rbtnB.Name = "rbtnB";
-            this.rbtnB.Size = new System.Drawing.Size(41, 23);
+            this.rbtnB.Size = new System.Drawing.Size(93, 23);
             this.rbtnB.TabIndex = 2;
             this.rbtnB.TabStop = true;
-            this.rbtnB.Text = "B";
+            this.rbtnB.Text = "Superior";
             this.rbtnB.UseVisualStyleBackColor = true;
             this.rbtnB.CheckedChanged += new System.EventHandler(this.rbtnB_CheckedChanged);
             // 
@@ -344,10 +344,10 @@
             this.rbtnA.Location = new System.Drawing.Point(165, 192);
             this.rbtnA.Margin = new System.Windows.Forms.Padding(4);
             this.rbtnA.Name = "rbtnA";
-            this.rbtnA.Size = new System.Drawing.Size(41, 23);
+            this.rbtnA.Size = new System.Drawing.Size(96, 23);
             this.rbtnA.TabIndex = 1;
             this.rbtnA.TabStop = true;
-            this.rbtnA.Text = "A";
+            this.rbtnA.Text = "Standard";
             this.rbtnA.UseVisualStyleBackColor = true;
             this.rbtnA.CheckedChanged += new System.EventHandler(this.rbtnA_CheckedChanged);
             // 

@@ -1,4 +1,4 @@
-# Restaurant Management Application
+# Hotel Management Application
 
 # Tiếng việt 
 
@@ -25,14 +25,14 @@
 - **Lập báo cáo tháng**
 
 **Môi trường cài đặt:**
-* Hệ điều hành Window
-* Ngôn ngữ C#
-* SQL Server
+* Hệ điều hành Window 10
+* Ngôn ngữ lập trình C#
+* SQL Server 2014
     
     
 # English 
 
-**Subject:** Restaurant Management Application
+**Subject:** Hotel Management Application
 
 **Team: Nice Grow**
 
@@ -54,6 +54,6 @@
 - **Make monthly reports**
 
 **Installation environment:**
-* Window operating system
-* C# language
-* SQL Server
+* Window 10 OS
+* Language C#
+* SQL Server 2014
