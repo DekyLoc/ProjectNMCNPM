@@ -345,8 +345,6 @@ namespace QuanLyKhachSan
         // Lưu hoá đơn.
         void SaveHD()
         {
-            DateTime dateTime = DateTime.Now;
-            string formatDateTime = "dd-MM-yyyy";
             int tempHiringDays = 0;
             int tempTotalAmount = 0;
             foreach (ListViewItem item in lsvHoaDon.Items)
@@ -361,7 +359,8 @@ namespace QuanLyKhachSan
             SqlCommand sqlCommand = new SqlCommand("insert into HOADON values (@mahd,@maphieu,@ngaytra,@songaythue,@phuthu,@thanhtien,@trigia)", sqlConnection);
             sqlCommand.Parameters.AddWithValue("@mahd", txtMaHoaDon.Text);
             sqlCommand.Parameters.AddWithValue("@maphieu", txtMaPhieuThue.Text);
-            sqlCommand.Parameters.AddWithValue("@ngaytra", dateTime.ToString(formatDateTime));
+            sqlCommand.Parameters.AddWithValue("@ngaytra", DateTime.Now.ToString("yyyy/MM/dd"));
+            //sqlCommand.Parameters.AddWithValue("@ngaytra", DateTime.Now.ToString("dd/MM/yyyy"));
             sqlCommand.Parameters.AddWithValue("@songaythue", tempHiringDays);
             sqlCommand.Parameters.AddWithValue("@phuthu", Int32.Parse(extraMoney.ToString()));
             sqlCommand.Parameters.AddWithValue("@thanhtien", tempTotalAmount);
@@ -413,7 +412,7 @@ namespace QuanLyKhachSan
                 PayHD();
                 btnMenu_Click(this, new EventArgs());
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
             }
