@@ -236,6 +236,7 @@
             // dtNgayThanhToan
             // 
             this.dtNgayThanhToan.CustomFormat = "dd/MM/yyyy";
+            this.dtNgayThanhToan.Enabled = false;
             this.dtNgayThanhToan.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtNgayThanhToan.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtNgayThanhToan.Location = new System.Drawing.Point(668, 184);
