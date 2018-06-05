@@ -47,3 +47,20 @@ E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\Quan
 E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
 E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
 E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.BaoCaoThang.resources
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.DanhMucPhong.resources
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.HoaDonThanhToan.resources
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Login.resources
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.TraCuu.resources
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Menu.resources
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.PhieuThuePhong.resources
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Properties.Resources.resources
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.SuaThongTin.resources
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.TroGiup.resources
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
