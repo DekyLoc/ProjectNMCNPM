@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{309DF64A-A0C3-4A35-BD02-1EBB2F497866}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QLKS</RootNamespace>
+    <AssemblyName>QLKS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BUS\BUS_BaoCaoThang.cs" />
+    <Compile Include="BUS\BUS_DanhMucPhong.cs" />
+    <Compile Include="BUS\BUS_HoaDonThanhToan.cs" />
+    <Compile Include="BUS\BUS_PhieuThuePhong.cs" />
+    <Compile Include="BUS\BUS_TraCuu.cs" />
+    <Compile Include="Container.cs" />
+    <Compile Include="DAL\DAL_BaoCaoThang.cs" />
+    <Compile Include="DAL\DAL_DanhMucPhong.cs" />
+    <Compile Include="DAL\DAL_HoaDonThanhToan.cs" />
+    <Compile Include="DAL\DAL_PhieuThuePhong.cs" />
+    <Compile Include="DAL\DAL_TraCuu.cs" />
+    <Compile Include="DTO\DTO_BaoCaoThang.cs" />
+    <Compile Include="DTO\DTO_DanhMucPhong.cs" />
+    <Compile Include="DTO\DTO_DoanhThu.cs" />
+    <Compile Include="DTO\DTO_DSDoanhThu.cs" />
+    <Compile Include="DTO\DTO_HoaDonThanhToan.cs" />
+    <Compile Include="DTO\DTO_KhachHang.cs" />
+    <Compile Include="DTO\DTO_PhieuThuePhong.cs" />
+    <Compile Include="DTO\DTO_TraCuu.cs" />
+    <Compile Include="GUI\GUI_BaoCaoThang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GUI_BaoCaoThang.Designer.cs">
+      <DependentUpon>GUI_BaoCaoThang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GUI_DanhMucPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GUI_DanhMucPhong.Designer.cs">
+      <DependentUpon>GUI_DanhMucPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GUI_HoaDonThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GUI_HoaDonThanhToan.Designer.cs">
+      <DependentUpon>GUI_HoaDonThanhToan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GUI_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GUI_Menu.Designer.cs">
+      <DependentUpon>GUI_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GUI_PhieuThuePhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GUI_PhieuThuePhong.Designer.cs">
+      <DependentUpon>GUI_PhieuThuePhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GUI_SuaThongTin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GUI_SuaThongTin.Designer.cs">
+      <DependentUpon>GUI_SuaThongTin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GUI_TraCuu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GUI_TraCuu.Designer.cs">
+      <DependentUpon>GUI_TraCuu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GUI_TroGiup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GUI_TroGiup.Designer.cs">
+      <DependentUpon>GUI_TroGiup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\GUI_DanhMucPhong.resx">
+      <DependentUpon>GUI_DanhMucPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\GUI_Menu.resx">
+      <DependentUpon>GUI_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

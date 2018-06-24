@@ -1,0 +1,10 @@
+D:\3Layer\QLKS\QLKS\bin\Debug\QLKS.exe.config
+D:\3Layer\QLKS\QLKS\obj\Debug\QLKS.GUI.GUI_DanhMucPhong.resources
+D:\3Layer\QLKS\QLKS\obj\Debug\QLKS.Properties.Resources.resources
+D:\3Layer\QLKS\QLKS\obj\Debug\QLKS.csproj.GenerateResource.Cache
+D:\3Layer\QLKS\QLKS\bin\Debug\QLKS.exe
+D:\3Layer\QLKS\QLKS\bin\Debug\QLKS.pdb
+D:\3Layer\QLKS\QLKS\obj\Debug\QLKS.exe
+D:\3Layer\QLKS\QLKS\obj\Debug\QLKS.pdb
+D:\3Layer\QLKS\QLKS\obj\Debug\QLKS.csprojResolveAssemblyReference.cache
+D:\3Layer\QLKS\QLKS\obj\Debug\QLKS.GUI.GUI_Menu.resources

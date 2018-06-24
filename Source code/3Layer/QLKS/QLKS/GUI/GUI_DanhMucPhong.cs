@@ -8,34 +8,41 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QLKS.BUS;
+using QLKS.DTO;
 
-namespace QuanLyKhachSan
-{    
-    public partial class DanhMucPhong : Form
+namespace QLKS.GUI
+{
+    public partial class GUI_DanhMucPhong : Form
     {
         #region Hàm khởi tạo, các biến và event.
         // Event quay lại Menu.
         public event EventHandler ReturnMenu;
 
         // Quay lại menu hoặc thoát chương trình.
-        public bool isExit = true; 
+        public bool isExit = true;
 
-        public DanhMucPhong()
+        public GUI_DanhMucPhong()
         {
             InitializeComponent();
+            DanhMucPhong_BUS = new BUS_DanhMucPhong();
+            DanhMucPhong_DTO = new DTO_DanhMucPhong();
             LoadData();
             LoadCheckBox();
             rbtnA.Checked = true;
             rbtnA_CheckedChanged(this, new EventArgs());
         }
-        #endregion 
+
+        private BUS_DanhMucPhong DanhMucPhong_BUS;
+        private DTO_DanhMucPhong DanhMucPhong_DTO;
+        #endregion
 
         #region Đóng form
         private void btnThoat_Click(object sender, EventArgs e)
         {
             //Show dialog notify
             DialogResult dr = MessageBox.Show("Bạn có chắc muốn thoát chương trình?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if(dr == DialogResult.Yes)
+            if (dr == DialogResult.Yes)
             {
                 FormClose();
             }
@@ -45,13 +52,13 @@ namespace QuanLyKhachSan
             }
         }
 
-        private void DanhMucPhong_FormClosed(object sender, FormClosedEventArgs e) 
+        private void DanhMucPhong_FormClosed(object sender, FormClosedEventArgs e)
         {
             FormClose();
         }
 
         // Quay lại menu hoặc thoát chương trình.
-        void FormClose() 
+        void FormClose()
         {
             if (isExit)
             {
@@ -60,23 +67,24 @@ namespace QuanLyKhachSan
             }
         }
         #endregion
-
         #region Load dữ liệu
-        
+
         // Load dữ liệu của bảng phòng từ csdl.
         void LoadData()
         {
-            SqlConnection sqlConnection = new SqlConnection(@"Data Source=" + QuanLyKhachSan.Container.severName + ";Initial Catalog=QUANLYKHACHSAN;Integrated Security=True");
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from PHONG", sqlConnection);
+            //SqlConnection sqlConnection = new SqlConnection(@"Data Source=" + QLKS.Container.severName + ";Initial Catalog=QLKS;Integrated Security=True");
+            //SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from PHONG", sqlConnection);
+            //DataTable dataTable = new DataTable();
+            //sqlDataAdapter.Fill(dataTable);
             DataTable dataTable = new DataTable();
-            sqlDataAdapter.Fill(dataTable);
+            dataTable = DanhMucPhong_BUS.Load();
             lsvDanhMucPhong.Items.Clear();
             for (int i = 0; i < dataTable.Rows.Count; i++)
             {
                 string temp = dataTable.Rows[i][2].ToString();
                 ListViewItem Item = new ListViewItem(dataTable.Rows[i][0].ToString());
                 Item.SubItems.Add(dataTable.Rows[i][1].ToString());
-                Item.SubItems.Add(QuanLyKhachSan.Container.FormatMoney(Int32.Parse(dataTable.Rows[i][2].ToString())));
+                Item.SubItems.Add(QLKS.Container.FormatMoney(Int32.Parse(dataTable.Rows[i][2].ToString())));
                 Item.SubItems.Add(dataTable.Rows[i][3].ToString());
                 lsvDanhMucPhong.Items.Add(Item);
             }
@@ -96,7 +104,7 @@ namespace QuanLyKhachSan
                     CheckBox checkBox = ck as CheckBox;
                     if (checkBox != null)
                     {
-                        if(checkBox.Text=="Trống" && item.Text=="Trống")
+                        if (checkBox.Text == "Trống" && item.Text == "Trống")
                         {
                             continue;
                         }
@@ -108,18 +116,16 @@ namespace QuanLyKhachSan
                                 checkBox.Enabled = false;
                             }
                         }
-                       
+
                     }
                 }
             }
         }
-
         #endregion
-
         #region Xử lí các hàm trong các sự kiện click button.
 
         // Xử lí thêm phòng khi click button Them
-        void AddPhong() 
+        void AddPhong()
         {
             foreach (var item in this.Controls)
             {
@@ -160,7 +166,7 @@ namespace QuanLyKhachSan
         }
 
         // Cập nhật khi bỏ check các phòng.
-        void RemovePhong() 
+        void RemovePhong()
         {
             if (rbtnA.Checked == true)
                 RemoveItem("Standard");
@@ -171,7 +177,7 @@ namespace QuanLyKhachSan
         }
 
         // Hàm được gọi bởi RemovePhong
-        void RemoveItem(string loaiphong) 
+        void RemoveItem(string loaiphong)
         {
             foreach (ListViewItem item in lsvDanhMucPhong.Items)
             {
@@ -183,7 +189,7 @@ namespace QuanLyKhachSan
         }
 
         // Cập nhật trạng thái của các check box của những radio button không được check.
-        void CheckPhong() 
+        void CheckPhong()
         {
             if (rbtnA.Checked == true)
             {
@@ -205,7 +211,7 @@ namespace QuanLyKhachSan
         }
 
         // Hàm được gọi bởi CheckPhong.
-        void CheckItem(string loaiphong) 
+        void CheckItem(string loaiphong)
         {
             foreach (ListViewItem item in lsvDanhMucPhong.Items)
             {
@@ -216,9 +222,9 @@ namespace QuanLyKhachSan
                     foreach (var ck in this.Controls)
                     {
                         CheckBox checkBox = ck as CheckBox;
-                        if(checkBox != null)
+                        if (checkBox != null)
                         {
-                            if(checkBox.Text == item.Text)
+                            if (checkBox.Text == item.Text)
                             {
                                 checkBox.Checked = true;
                                 checkBox.Enabled = false;
@@ -230,7 +236,7 @@ namespace QuanLyKhachSan
         }
 
         // Cập nhật trạng thái các check box của radio button được chọn.
-        void ChangeLoaiPhong(string loaiphong) 
+        void ChangeLoaiPhong(string loaiphong)
         {
             foreach (var ck in this.Controls)
             {
@@ -263,31 +269,37 @@ namespace QuanLyKhachSan
         //    return 0;
         //}
         // Lưu dữ liệu khi nhấn button Luu.
-        void SaveData() 
+        void SaveData()
         {
-            SqlConnection sqlConnection = new SqlConnection(@"Data Source="+QuanLyKhachSan.Container.severName+";Initial Catalog=QUANLYKHACHSAN;Integrated Security=True");
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from PHONG", sqlConnection);
+            ////SqlConnection sqlConnection = new SqlConnection(@"Data Source=" + QuanLyKhachSan.Container.severName + ";Initial Catalog=QUANLYKHACHSAN;Integrated Security=True");
+            ////SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from PHONG", sqlConnection);
+            ////DataTable dataTable = new DataTable();
+            //sqlDataAdapter.Fill(dataTable);
             DataTable dataTable = new DataTable();
-            sqlDataAdapter.Fill(dataTable);
-
+            dataTable = DanhMucPhong_BUS.Load();
             if (lsvDanhMucPhong.Items.Count == 0)
             {
-                SqlCommand sqlCommand = new SqlCommand("delete from PHONG ", sqlConnection);
-                sqlCommand.ExecuteNonQuery();
+                 DanhMucPhong_BUS.Delete_NoRequire();
+//                SqlCommand sqlCommand = new SqlCommand("delete from PHONG ", sqlConnection);
+//                sqlCommand.ExecuteNonQuery();
                 return;
             }
-
-            sqlConnection.Open();
+           
+            DanhMucPhong_BUS.Open();
             if (dataTable.Rows.Count == 0)
             {
                 foreach (ListViewItem item in lsvDanhMucPhong.Items)
                 {
                     string temp = item.SubItems[2].Text;
-                    item.SubItems[2].Text = QuanLyKhachSan.Container.FormatMoney(item.SubItems[2].Text).ToString();
+                    item.SubItems[2].Text = QLKS.Container.FormatMoney(item.SubItems[2].Text).ToString();
                     //int tt = CheckState();
-                      SqlCommand sqlCommand = new SqlCommand("insert into PHONG values ('" + item.Text + "','" + item.SubItems[1].Text + "', '" + item.SubItems[2].Text + "',N'" + item.SubItems[3].Text + "' , '" + 0 + "'  )", sqlConnection);
-                      sqlCommand.ExecuteNonQuery();
-                      item.SubItems[2].Text = temp;
+                    DanhMucPhong_DTO.MaPNG = item.Text;
+                    DanhMucPhong_DTO.Loai_PNG = item.SubItems[1].Text;
+                    DanhMucPhong_DTO.Don_Gia = item.SubItems[2].Text;
+                    DanhMucPhong_DTO.Ghi_Chu = item.SubItems[3].Text;
+                    DanhMucPhong_DTO.Tinh_Trang ="0";
+                    DanhMucPhong_BUS.Insert(DanhMucPhong_DTO);
+                    item.SubItems[2].Text = temp;
                 }
             }
             else
@@ -303,15 +315,22 @@ namespace QuanLyKhachSan
                             break;
                         else if (item.Text == dataTable.Rows[i][0].ToString() && item.SubItems[1].Text != dataTable.Rows[i][1].ToString())
                         {
-                            SqlCommand sqlCommand = new SqlCommand("update PHONG set LOAI_PNG='" + item.SubItems[1].Text + "', DON_GIA='" + QuanLyKhachSan.Container.FormatMoney(item.SubItems[2].Text).ToString()
-                            +"', GHI_CHU=N'" + item.SubItems[3].Text + "' where MAPNG='" + item.Text + "'", sqlConnection);
-                            sqlCommand.ExecuteNonQuery();
+                            DanhMucPhong_DTO.MaPNG = item.Text;
+                            DanhMucPhong_DTO.Loai_PNG = item.SubItems[1].Text;
+                            DanhMucPhong_DTO.Don_Gia = item.SubItems[2].Text;
+                            DanhMucPhong_DTO.Ghi_Chu = item.SubItems[3].Text;
+                            DanhMucPhong_DTO.Tinh_Trang = "0";
+                            DanhMucPhong_BUS.Update(DanhMucPhong_DTO);
                             break;
                         }
                         else if (i == dataTable.Rows.Count - 1)
                         {
-                            SqlCommand sqlCommand = new SqlCommand("insert into PHONG values ('" + item.Text + "','" + item.SubItems[1].Text + "', '" + QuanLyKhachSan.Container.FormatMoney(item.SubItems[2].Text).ToString() + "',N'" + item.SubItems[3].Text + "' , '" + 0 + "'  )", sqlConnection);
-                            sqlCommand.ExecuteNonQuery();
+                            DanhMucPhong_DTO.MaPNG = item.Text;
+                            DanhMucPhong_DTO.Loai_PNG = item.SubItems[1].Text;
+                            DanhMucPhong_DTO.Don_Gia = item.SubItems[2].Text;
+                            DanhMucPhong_DTO.Ghi_Chu = item.SubItems[3].Text;
+                            DanhMucPhong_DTO.Tinh_Trang = "0";
+                            DanhMucPhong_BUS.Insert(DanhMucPhong_DTO);
                         }
                     }
                 }
@@ -328,23 +347,22 @@ namespace QuanLyKhachSan
                                 break;
                             else if (item.Text == lsvDanhMucPhong.Items[lsvDanhMucPhong.Items.Count - 1].Text)
                             {
-                                SqlCommand sqlCommand = new SqlCommand("delete from PHONG where MAPNG='" + dataTable.Rows[i][0].ToString() + "'", sqlConnection);
-                                sqlCommand.ExecuteNonQuery();
+                                string maphong = dataTable.Rows[i][0].ToString();
+                                DanhMucPhong_BUS.Delete(maphong);
                             }
                         }
                     }
                 }
-                catch(Exception)
+                catch (Exception)
                 {
-                    MessageBox.Show("Phòng đã thuê không được phép chỉnh sửa!","Lỗi",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                    MessageBox.Show("Phòng đã thuê không được phép chỉnh sửa!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
             }
-            sqlConnection.Close();
+            DanhMucPhong_BUS.Close();
             MessageBox.Show("Lưu Danh Mục Phòng Thành Công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         #endregion
-
         #region Gọi các sự kiện click button.
         private void btnThem_Click(object sender, EventArgs e)
         {
@@ -357,7 +375,7 @@ namespace QuanLyKhachSan
             SaveData();
         }
 
-        private void btnReset_Click(object sender, EventArgs e) 
+        private void btnReset_Click(object sender, EventArgs e)
         {
             foreach (var ck in this.Controls)
             {
@@ -377,7 +395,7 @@ namespace QuanLyKhachSan
 
         private void rbtnA_CheckedChanged(object sender, EventArgs e)
         {
-            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(400000);
+            txtDonGia.Text = QLKS.Container.FormatMoney(400000);
             CheckPhong();
             ChangeLoaiPhong("Standard");
             txtGhiChu.Clear();
@@ -385,7 +403,7 @@ namespace QuanLyKhachSan
 
         private void rbtnB_CheckedChanged(object sender, EventArgs e)
         {
-            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(1000000);
+            txtDonGia.Text = QLKS.Container.FormatMoney(1000000);
             CheckPhong();
             ChangeLoaiPhong("Superior");
             txtGhiChu.Clear();
@@ -393,7 +411,7 @@ namespace QuanLyKhachSan
 
         private void rbtnC_CheckedChanged(object sender, EventArgs e)
         {
-            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(2000000);
+            txtDonGia.Text = QLKS.Container.FormatMoney(2000000);
             CheckPhong();
             ChangeLoaiPhong("Deluxe");
             txtGhiChu.Clear();
@@ -403,7 +421,7 @@ namespace QuanLyKhachSan
         {
             ReturnMenu(this, new EventArgs());
         }
-        #endregion      
+        #endregion
 
         #region Graphics
         protected override void OnPaint(PaintEventArgs e)
@@ -414,12 +432,6 @@ namespace QuanLyKhachSan
         }
 
         #endregion
-
-
-
-
-
-
 
     }
 }
