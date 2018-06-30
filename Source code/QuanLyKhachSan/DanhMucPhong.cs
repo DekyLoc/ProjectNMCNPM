@@ -343,6 +343,25 @@ namespace QuanLyKhachSan
             sqlConnection.Close();
             MessageBox.Show("Lưu Danh Mục Phòng Thành Công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        int GetMoney(string maphong)
+        {
+            int money = '0';
+            try
+            {
+                SqlConnection sqlConnection = new SqlConnection(@"Data Source=" + QuanLyKhachSan.Container.severName + ";Initial Catalog=QUANLYKHACHSAN;Integrated Security=True");
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from GIA where MAPHONG='" + maphong + "'", sqlConnection);
+                DataTable dataTable = new DataTable();
+                sqlDataAdapter.Fill(dataTable);
+                money = Int32.Parse(dataTable.Rows[0][1].ToString());
+                MessageBox.Show("Cập Nhật Thành Công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Lỗi Không Thể Cập Nhật", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            return money;
+        }
         #endregion
 
         #region Gọi các sự kiện click button.
@@ -377,7 +396,8 @@ namespace QuanLyKhachSan
 
         private void rbtnA_CheckedChanged(object sender, EventArgs e)
         {
-            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(400000);
+            int money = GetMoney("A");
+            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(money);
             CheckPhong();
             ChangeLoaiPhong("Standard");
             txtGhiChu.Clear();
@@ -385,7 +405,8 @@ namespace QuanLyKhachSan
 
         private void rbtnB_CheckedChanged(object sender, EventArgs e)
         {
-            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(1000000);
+            int money = GetMoney("B");
+            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(money);
             CheckPhong();
             ChangeLoaiPhong("Superior");
             txtGhiChu.Clear();
@@ -393,7 +414,8 @@ namespace QuanLyKhachSan
 
         private void rbtnC_CheckedChanged(object sender, EventArgs e)
         {
-            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(2000000);
+            int money = GetMoney("C");
+            txtDonGia.Text = QuanLyKhachSan.Container.FormatMoney(money);
             CheckPhong();
             ChangeLoaiPhong("Deluxe");
             txtGhiChu.Clear();

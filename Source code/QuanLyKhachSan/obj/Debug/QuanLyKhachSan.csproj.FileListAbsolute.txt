@@ -50,11 +50,11 @@ E:\Learn\HK2 2018\NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\Quan
 D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe.config
 D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.exe
 D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\bin\Debug\QuanLyKhachSan.pdb
-D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache
 D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.BaoCaoThang.resources
 D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.DanhMucPhong.resources
 D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.HoaDonThanhToan.resources
 D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Login.resources
+D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.ThayDoiQuyDinh.resources
 D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.TraCuu.resources
 D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.Menu.resources
 D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.PhieuThuePhong.resources

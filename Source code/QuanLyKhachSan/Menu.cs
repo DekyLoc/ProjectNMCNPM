@@ -133,15 +133,15 @@ namespace QuanLyKhachSan
         private void btnHelp_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            TroGiup frmTroGiup = new TroGiup();
+            ThayDoiQuyDinh frmTroGiup = new ThayDoiQuyDinh();
             frmTroGiup.ReturnMenu += FrmTroGiup_Menu;
             frmTroGiup.Show();
         }
 
         private void FrmTroGiup_Menu(object sender, EventArgs e)
         {
-            (sender as TroGiup).isExit = false;
-            (sender as TroGiup).Close();
+            (sender as ThayDoiQuyDinh).isExit = false;
+            (sender as ThayDoiQuyDinh).Close();
             this.Show();
         }
 

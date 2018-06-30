@@ -178,7 +178,7 @@
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(466, 64);
             this.btnHelp.TabIndex = 24;
-            this.btnHelp.Text = "Trợ giúp";
+            this.btnHelp.Text = "Thay Đổi Quy Định";
             this.btnHelp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHelp.UseVisualStyleBackColor = false;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
