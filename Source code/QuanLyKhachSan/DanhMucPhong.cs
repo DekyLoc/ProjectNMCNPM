@@ -350,11 +350,10 @@ namespace QuanLyKhachSan
             try
             {
                 SqlConnection sqlConnection = new SqlConnection(@"Data Source=" + QuanLyKhachSan.Container.severName + ";Initial Catalog=QUANLYKHACHSAN;Integrated Security=True");
-                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from GIA where MAPHONG='" + maphong + "'", sqlConnection);
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from THAYDOIQUYDINH where MAPHONG='" + maphong + "'", sqlConnection);
                 DataTable dataTable = new DataTable();
                 sqlDataAdapter.Fill(dataTable);
                 money = Int32.Parse(dataTable.Rows[0][1].ToString());
-                MessageBox.Show("Cập Nhật Thành Công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception)
             {
