@@ -6,6 +6,8 @@
 
 **Nhóm: Nice Grow**
 
+**Chuyên Ngành :Thương Mại Điện Tử**
+
 **Thành viên:**
 >+ Nguyễn Võ Thái Dương - 15520150.
 >+ Nguyễn Huy Hảo - 15520202.
@@ -36,6 +38,8 @@
 
 **Team: Nice Grow**
 
+**Specialist :E-commerce**
+
 **Member:**
 >+ Nguyen Vo Thai Duong - 15520150.
 >+ Nguyen Huy Hao - 15520202.
@@ -60,4 +64,4 @@
 
 
 
-**Specialist :E-commerce**
+

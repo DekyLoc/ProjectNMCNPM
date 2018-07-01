@@ -64,4 +64,3 @@ D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhach
 D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csproj.GenerateResource.Cache
 D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.exe
 D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.pdb
-D:\Project_NMCNPM\ProjectNMCNPM\Source code\QuanLyKhachSan\obj\Debug\QuanLyKhachSan.csprojResolveAssemblyReference.cache

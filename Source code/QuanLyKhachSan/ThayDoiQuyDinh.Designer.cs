@@ -140,7 +140,7 @@
             this.cmbpng.FormattingEnabled = true;
             this.cmbpng.Items.AddRange(new object[] {
             "Standard",
-            "Supervior",
+            "Superior",
             "Deluxe"});
             this.cmbpng.Location = new System.Drawing.Point(161, 25);
             this.cmbpng.Name = "cmbpng";

@@ -77,7 +77,7 @@ namespace QuanLyKhachSan
                 sqlDataAdapter.Fill(dataTable);
                 money = Int32.Parse(dataTable.Rows[0][1].ToString());
             }
-            else if (cmbpng.Text == "Supervior")
+            else if (cmbpng.Text == "Superior")
             {
                 SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from THAYDOIQUYDINH where MAPHONG='B'", sqlConnection);
                 DataTable dataTable = new DataTable();
@@ -115,7 +115,7 @@ namespace QuanLyKhachSan
                     sqlCommand.ExecuteNonQuery();
                     sqlConnection.Close();
                 }
-                else if (cmbpng.Text == "Supervior")
+                else if (cmbpng.Text == "Superior")
                 {
                     sqlConnection.Open();
                     SqlCommand sqlCommand = new SqlCommand("update THAYDOIQUYDINH set GIA='" + Int32.Parse(txtGiam.Text) + "'" + "where MAPHONG='B' ", sqlConnection);

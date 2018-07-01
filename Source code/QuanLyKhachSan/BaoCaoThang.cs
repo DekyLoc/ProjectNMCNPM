@@ -221,10 +221,10 @@ namespace QuanLyKhachSan
                 {
                     for (int j = 0; j < dataTableHD.Rows.Count; j++)
                     {
-                        if (dataTableHD.Rows[j][1].ToString() == dataTablePT.Rows[i][0].ToString())
+                        endingDate = DateTime.Parse(dataTableHD.Rows[j][2].ToString()).ToString("dd/MM/yyyy");
+                        datetimeEndingDate = DateTime.Parse(endingDate);
+                        if (dataTableHD.Rows[j][1].ToString() == dataTablePT.Rows[i][0].ToString() && datetimeEndingDate.Month.ToString() == cmbThang.Text)
                         {
-                            endingDate = DateTime.Parse(dataTableHD.Rows[j][2].ToString()).ToString("dd/MM/yyyy");
-                            datetimeEndingDate = DateTime.Parse(endingDate);
                             if (datetimeEndingDate.Month.ToString() == cmbThang.Text)
                             {
                                 isDTThang = true; //Xác nhận tháng này có hóa đơn
@@ -248,12 +248,7 @@ namespace QuanLyKhachSan
                                     }
                                 }
                             }
-                            else if (j == dataTableHD.Rows.Count - 1 && !isDTThang)
-                            {
-                                MessageBox.Show("Tháng " + cmbThang.Text + " chưa có hóa đơn!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                                btnLuuDoanhThu.Enabled = false;
-                                return;
-                            }
+                          
 
                             if (isBreakFor)
                             {
@@ -264,7 +259,12 @@ namespace QuanLyKhachSan
                     }
                 }
             }
-
+            if (isDTThang==false)
+            {
+                MessageBox.Show("Tháng " + cmbThang.Text + " chưa có hóa đơn!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                btnLuuDoanhThu.Enabled = false;
+                return;
+            }
             foreach (ListViewItem item in lsvDoanhThu.Items)
             {
                 if (item == null)
