@@ -226,9 +226,20 @@ namespace QuanLyKhachSan
                 }
             }
         }
+        // Lấy số lương tối đa của phòng
+        int GetSL()
+        {
+            int sl = '0';
+            SqlConnection sqlConnection = new SqlConnection(@"Data Source=" + QuanLyKhachSan.Container.severName + ";Initial Catalog=QUANLYKHACHSAN;Integrated Security=True");
+            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from THAYDOIQUYDINH where MAPHONG='A'", sqlConnection);
+            DataTable dataTable = new DataTable();
+            sqlDataAdapter.Fill(dataTable);
+            sl = Int32.Parse(dataTable.Rows[0][2].ToString());
+            return sl;
 
+        }
         // Thêm một khách hàng mới.
-        void AddKhachHang()
+        void AddKhachHang(int sl)
         {
             string maKH = txtMaKH.Text;
             string tenKH = txtTenKH.Text;
@@ -273,9 +284,9 @@ namespace QuanLyKhachSan
             if (!string.IsNullOrEmpty(cmbPhong.Text))
                 cmbPhong.Enabled = false;
 
-            if (lsvPhieuThue.Items.Count == 3)
+            if (lsvPhieuThue.Items.Count == sl)
             {
-                MessageBox.Show("Phòng đã nhận đủ 3 khách!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Phòng đã nhận đủ khách!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 btnXuatThongTin.Enabled = btnThem.Enabled = txtMaKH.Enabled = txtTenKH.Enabled = txtCMND.Enabled = cmbLoaiKhach.Enabled = txtDiaChi.Enabled = false;
             }
         }
@@ -519,7 +530,8 @@ namespace QuanLyKhachSan
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            AddKhachHang();
+            int sl = GetSL();
+            AddKhachHang(sl);
         }
 
         private void btnXoa_Click(object sender, EventArgs e)

@@ -27,6 +27,8 @@ namespace QuanLyKhachSan
         public ThayDoiQuyDinh()
         {
             InitializeComponent();
+            int SL = LoadSLKH();
+            txtslmax.Text = QuanLyKhachSan.Container.FormatMoney(SL);
         }
         #region Đóng form
         private void btnThoat_Click(object sender, EventArgs e)
@@ -64,34 +66,43 @@ namespace QuanLyKhachSan
         // tabPhong
 
         // Tìm các phòng và các thông tin tương ứng.
-        int LoadPhong()
+        int LoadGia()
         {
             SqlConnection sqlConnection = new SqlConnection(@"Data Source=" + QuanLyKhachSan.Container.severName + ";Initial Catalog=QUANLYKHACHSAN;Integrated Security=True");
             int money=0;
             if (cmbpng.Text == "Standard")
             {
-                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from GIA where MAPHONG='A'", sqlConnection);
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from THAYDOIQUYDINH where MAPHONG='A'", sqlConnection);
                 DataTable dataTable = new DataTable();
                 sqlDataAdapter.Fill(dataTable);
                 money = Int32.Parse(dataTable.Rows[0][1].ToString());
             }
             else if (cmbpng.Text == "Supervior")
             {
-                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from GIA where MAPHONG='B'", sqlConnection);
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from THAYDOIQUYDINH where MAPHONG='B'", sqlConnection);
                 DataTable dataTable = new DataTable();
                 sqlDataAdapter.Fill(dataTable);
                 money = Int32.Parse(dataTable.Rows[0][1].ToString());
             }
             else if (cmbpng.Text == "Deluxe")
             {
-                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from GIA where MAPHONG='C'", sqlConnection);
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from THAYDOIQUYDINH where MAPHONG='C'", sqlConnection);
                 DataTable dataTable = new DataTable();
                 sqlDataAdapter.Fill(dataTable);
                 money = Int32.Parse(dataTable.Rows[0][1].ToString());
             }
             return money;
         }
-
+        int LoadSLKH()
+        {
+            int SLKH = 0;
+            SqlConnection sqlConnection = new SqlConnection(@"Data Source=" + QuanLyKhachSan.Container.severName + ";Initial Catalog=QUANLYKHACHSAN;Integrated Security=True");
+            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select * from THAYDOIQUYDINH where MAPHONG='A'", sqlConnection);
+            DataTable dataTable = new DataTable();
+            sqlDataAdapter.Fill(dataTable);
+            SLKH = Int32.Parse(dataTable.Rows[0][2].ToString());
+            return SLKH;
+        }
         void UpdateGia()
         {
             try
@@ -100,21 +111,21 @@ namespace QuanLyKhachSan
                 if (cmbpng.Text == "Standard")
                 {
                     sqlConnection.Open();
-                    SqlCommand sqlCommand = new SqlCommand("update GIA set GIA='" + Int32.Parse(txtGiam.Text) + "'" + " where MAPHONG='A' ", sqlConnection);
+                    SqlCommand sqlCommand = new SqlCommand("update THAYDOIQUYDINH set GIA='" + Int32.Parse(txtGiam.Text) + "'" + " where MAPHONG='A' ", sqlConnection);
                     sqlCommand.ExecuteNonQuery();
                     sqlConnection.Close();
                 }
                 else if (cmbpng.Text == "Supervior")
                 {
                     sqlConnection.Open();
-                    SqlCommand sqlCommand = new SqlCommand("update GIA set GIA='" + Int32.Parse(txtGiam.Text) + "'" + "where MAPHONG='B' ", sqlConnection);
+                    SqlCommand sqlCommand = new SqlCommand("update THAYDOIQUYDINH set GIA='" + Int32.Parse(txtGiam.Text) + "'" + "where MAPHONG='B' ", sqlConnection);
                     sqlCommand.ExecuteNonQuery();
                     sqlConnection.Close();
                 }
                 else if (cmbpng.Text == "Deluxe")
                 {
                     sqlConnection.Open();
-                    SqlCommand sqlCommand = new SqlCommand("update GIA set GIA='" + Int32.Parse(txtGiam.Text) + "'" + "where MAPHONG='C' ", sqlConnection);
+                    SqlCommand sqlCommand = new SqlCommand("update THAYDOIQUYDINH set GIA='" + Int32.Parse(txtGiam.Text) + "'" + "where MAPHONG='C' ", sqlConnection);
                     sqlCommand.ExecuteNonQuery();
                     sqlConnection.Close();
                 }
@@ -126,13 +137,30 @@ namespace QuanLyKhachSan
             }
             MessageBox.Show("Cập Nhật Thành Công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-      
+
+        void UpdateSL()
+        {
+            try
+            {
+                    SqlConnection sqlConnection = new SqlConnection(@"Data Source=" + QuanLyKhachSan.Container.severName + ";Initial Catalog=QUANLYKHACHSAN;Integrated Security=True");
+                    sqlConnection.Open();
+                    SqlCommand sqlCommand = new SqlCommand("update THAYDOIQUYDINH set SLNG='" + Int32.Parse(txtsl.Text) + "'" , sqlConnection);
+                    sqlCommand.ExecuteNonQuery();
+                    sqlConnection.Close();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Lỗi Không Thể Cập Nhật", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            MessageBox.Show("Cập Nhật Thành Công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
         #endregion
 
         #region Gọi các sự kiện click button.
         private void cmbpng_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int money = LoadPhong();
+            int money = LoadGia();
             txtGiaht.Text = QuanLyKhachSan.Container.FormatMoney(money);
         }
 
@@ -140,13 +168,20 @@ namespace QuanLyKhachSan
         {
             UpdateGia();
         }
+
+        private void btnupsl_Click(object sender, EventArgs e)
+        {
+            UpdateSL();
+        }
         private void btnMenu_Click(object sender, EventArgs e)
         {
             ReturnMenu(this, new EventArgs());
         }
-        
-
         #endregion
+
+
+
+ 
        
 
     }
