@@ -1,0 +1,39 @@
+﻿Để chạy được source code mẫu:
+1. Install SQL Server >= 2010
+	- Start service SQL Server!!!
+2. Instal VS >= 2010
+
+-------------
+Cách run chi tiết:
+1. Tải file CreateDB.cmd,DataBase
+	
+2.1. Mở file
+	CreateDB.cmd bằng Notepad++
+	Thay thế chuỗi
+	DESKTOP-IH158E5\TOBI ---> thành {server name}\{Instance Name của SQL Server} trên máy đang chạy
+	và lưu lại( cái server name này chính là cái lúc khởi đông sql server hiện lên bản kết nối connect thì copy tên máy chủ server cái này chính  là server name)
+	
+2.2  Double click và file:
+	CreateDB.cmd
+	
+3. Open SQL Server Management Studio & kiểm tra	database 
+	[QUANLIKHACHSAN] được tạo
+	- gồm các table
+		
+4. Open Solution {QUANLIKHACHSAN.sln} bằng Visual Studio
+5. Vào project: 
+	
+6. Double click để open file:
+		Contanier.cs
+7. Cập nhật chuỗi kết nối:
+ public static string severName = System.Windows.Forms.SystemInformation.ComputerName + "\\TOBI";
+bằng cách đổi:
+	"\\TOBI" ---> thành {Instance Name của SQL Server} trên máy đang chạy
+8. Lưu file:
+	Contanier.cs
+9. Build solution tiếp tục
+
+
+	
+	
+		
