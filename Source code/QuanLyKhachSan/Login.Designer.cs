@@ -40,7 +40,7 @@
             // 
             // txtuser
             // 
-            this.txtuser.Location = new System.Drawing.Point(150, 117);
+            this.txtuser.Location = new System.Drawing.Point(130, 103);
             this.txtuser.Name = "txtuser";
             this.txtuser.Size = new System.Drawing.Size(187, 22);
             this.txtuser.TabIndex = 2;
@@ -49,7 +49,7 @@
             // txtpass
             // 
             this.txtpass.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txtpass.Location = new System.Drawing.Point(150, 163);
+            this.txtpass.Location = new System.Drawing.Point(130, 149);
             this.txtpass.Name = "txtpass";
             this.txtpass.PasswordChar = '*';
             this.txtpass.Size = new System.Drawing.Size(187, 22);
@@ -59,7 +59,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(65, 117);
+            this.label1.Location = new System.Drawing.Point(45, 103);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 17);
             this.label1.TabIndex = 4;
@@ -68,7 +68,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(65, 168);
+            this.label2.Location = new System.Drawing.Point(45, 154);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 17);
             this.label2.TabIndex = 5;
@@ -78,7 +78,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 25F);
-            this.label3.Location = new System.Drawing.Point(179, 35);
+            this.label3.Location = new System.Drawing.Point(159, 21);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(122, 47);
             this.label3.TabIndex = 6;
@@ -93,7 +93,7 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(150, 215);
+            this.btnLogin.Location = new System.Drawing.Point(130, 201);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(93, 31);
             this.btnLogin.TabIndex = 8;
@@ -103,7 +103,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(249, 215);
+            this.btnExit.Location = new System.Drawing.Point(229, 201);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(88, 31);
             this.btnExit.TabIndex = 9;
@@ -115,7 +115,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(419, 258);
+            this.ClientSize = new System.Drawing.Size(426, 263);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label3);
